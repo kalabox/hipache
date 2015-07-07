@@ -10,8 +10,8 @@ Ready][waffle-image]][waffle-url]
 WARNING
 -------
 
-This is the documentation for `master`. If you are running **Hipache release**,
-you should look at the documentation on the `0.3.x` branch.
+This is the documentation for `master`. If you are installing Hipache from **NPM**,
+you should look at the documentation on the [`0.3.x` branch](https://github.com/hipache/hipache/tree/0.3.1).
 
 
 What Is It?
@@ -81,7 +81,7 @@ version you installed):
             "ciphers": "DH+ECDSA+AESGCM EECDH+aRSA+AESGCM EECDH+ECDSA+SHA384 EECDH+ECDSA+SHA256 EECDH+a RSA+SHA384 EECDH+aRSA+SHA256 EECDH+aRSA+RC4 EECDH EDH+aRSA RC4 !aNULL !eNULL !LOW !3DES !MD5 !EXP !PSK !SRP !DSS !RC4",
             "honorCipherOrder": true
         },
-        "driver": "redis:"
+        "driver": "redis:",
         "user": "www-data",
         "group": "www-data"
     }
@@ -335,8 +335,8 @@ well-configured SSL/TLS layer.
 
 When something wrong happens (e.g., a backend times out), or when a request for
 an undefined virtual host comes in, Hipache will display an error page. Those
-error pages can be customized, and a configuration parameter is available to
-specify where these custom pages are located.
+error pages can be customized, and a configuration parameter (`server.staticDir`)
+is available to specify where these custom pages are located.
 
 ### Wildcard Domains Support
 
@@ -351,6 +351,12 @@ to match itself first, then `*.bar.baz.qux.quux`, then `*.baz.qux.quux`, etc.
 Even though Hipache support passive health checks, it's also possible to run
 active health checks. This mechanism requires to run an external program (see
 third-party softwares below).
+
+
+Contributing
+------------
+
+See [CONTRIBUTING.md](CONTRIBUTING.md)
 
 
 Third-Party Softwares of Interest
