@@ -10,6 +10,7 @@
     var jshint = require('gulp-jshint');
 
     var jsreporter = require('jshint-stylish');
+    require('./gulp/sass')(gulp);
 
     var driverstests = ['./test/unit/driver-*'];
     var unittests = ['./test/unit/*.js', '!./test/unit/driver-*'];

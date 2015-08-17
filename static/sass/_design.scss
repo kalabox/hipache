@@ -1,0 +1,16 @@
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+a:hover,
+a:active,
+a.active,
+a:focus {
+  color: $link-hover-color;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

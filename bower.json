@@ -1,0 +1,20 @@
+{
+  "name": "kalamuna.com",
+  "version": "0.0.0",
+  "homepage": "https://github.com/kalamuna/kalamuna.com",
+  "authors": [
+    "Thiago de Mello Bueno <thiago@madeofpeople.org>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": "v3.2.0+2"
+  },
+  "private": true
+}

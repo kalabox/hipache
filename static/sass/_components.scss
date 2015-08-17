@@ -1,0 +1,77 @@
+// Lede
+//
+// Extends bootstrap jumbotron
+//
+// Markup:
+// <section class="lede {{modifier_class}}" >
+//   <div class="content-wrapper">
+//     <h1 id="let-s-introduce-ourselves-">Let's Introduce Ourselves.</h1>
+//     <p>
+//       Kalamuna is an Oakland, CA agency specializing in design, strategy, user experience, and development. We make the Internet for rabble-rousing organizations driven to tinker, critique, and change the way things are. We play with the existing state of affairs by testing strategies, coming up with new solutions, new paradigms, and new ways of doing things. It’s this restless, change-making mindset that gets anything worth doing done. We have it and our clients have it.
+//     </p>
+//   </div>
+// </section>
+//
+// .about-us - about-us
+// .services - services
+// .careers - careers
+// .contact - contact
+//
+// Styleguide 4.2
+//
+
+.lede {
+
+  // @extend .jumbotron;
+
+  padding-top: 2.75em;
+  padding-bottom: 2em;
+
+  p {
+    max-width: 44em;
+    font-size: 1.2em !important;
+  }
+
+  .content-wrapper {
+    @extend %full-width-section;
+  }
+
+  color: #fff;
+  background-color: $c-kala-blue;
+  margin-bottom: 0;
+
+  h1 {
+    max-width: 18em;
+    font-size: 3em;
+    margin-top:.5em;
+  }
+
+}
+
+.page-about-us .lede,
+.lede.about-us {
+  background-color: $c-about-us;
+  background: linear-gradient(to bottom,  -us$c-about-us 10%, darken( $c-about-us,7) 100%);
+}
+
+.page-services .lede,
+.lede.services  {
+  background-color: $c-services;
+  background: linear-gradient(to bottom, $c-services 10%, darken( $c-services,7) 100%);
+  overflow: hidden;
+  @media (min-width: $screen-sm) {
+    padding-top: 4em;
+  }
+}
+
+.page-careers .lede,
+.lede.careers  {
+  background-color: $c-kala-green;
+  background: linear-gradient(to bottom,  $c-careers 10%, darken( $c-careers,7) 100%);
+}
+
+.page-contact .lede,
+.lede.contact  {
+  background-color: $c-kala-yellow;
+  background: linear-gradient(to bottom,  $c-contact 10%, darken( $c-contact,7) 100%);
+}
