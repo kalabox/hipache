@@ -1,0 +1,186 @@
+// Page CTAs
+//
+// Let's lead users from the content they are ingesting, to the next step in their journey. Note that the .page-{page-slug} classes are on the body tag, and so the outer div is unecessary.
+//
+// Markup:
+// <div class="cta-wrapper {{modifier_class}}">
+// <section class="cta">
+//  <div class="<!--content-wrapper-->">
+//    <a href="#" title="Blabbity-blagh">
+//      <h3>Let’s Play.</h3>
+//      <p>
+//        Our clients embrace curiosity, play and provocation to solve our most important problems. Interested in talking with us? Drop us a line.
+//      </p>
+//    </a>
+//  </div>
+// </section>
+// </div>
+//
+// .page-home - home color (.page-home on body tag)
+// .page-services - services color (.page-services on body tag)
+// .page-about-us - about color (.page-abpout on body tag)
+// .page-careers - careers color (.page-careers on body tag)
+// .page-contact - contact color (.page-contact in body tag)
+//
+// Styleguide 4.3
+//
+
+.cta {
+  width: 100%;
+  color: #fff;
+  p {
+    font-size: 1.25em;
+    margin-left: 1em;
+  }
+
+  h3 {
+    font-size: 1.75em;
+    margin-left: .75em;
+    @media screen and (min-width: $screen-sm ){
+      font-size: 2em;
+      margin-left: .15em;
+    }
+  }
+
+  a {
+    display:block;
+    width:100%;
+    height: 100%;
+    color: #fff;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    &:hover {
+      text-decoration: none;
+      color: none;
+    }
+  }
+
+  transition-property: background-color;
+  transition-duration: .15s;
+  @extend %easeOutSine;
+
+
+  h3,
+  a {
+    transition-property: color;
+    transition-duration: .325s;
+    @extend %easeOutSine;
+  }
+
+}
+
+.page-services .cta {
+  background-color: $c-services;
+  h3,
+  a {
+    color: darken( $c-services, 30% );
+  }
+  &:hover {
+    background-color: darken( $c-services, 5% );
+    a {
+      color: lighten( $c-services, 25% );
+    }
+  }
+}
+
+.page-about-us .cta {
+  margin-top: 0;
+  background-color: $c-about-us;
+  h3,
+  a {
+    color: darken( $c-about-us, 30% );
+  }
+  &:hover {
+    background-color: darken( $c-about-us, 5% );
+    a {
+      color: lighten( $c-about-us, 25% );
+    }
+  }
+}
+
+.page-careers .cta-wrapper {
+  margin-top: 2em;
+}
+
+.page-careers .cta {
+  background-color: $c-careers;
+  h3,
+  a {
+    color: darken( $c-careers, 30% );
+  }
+  &:hover {
+    background-color: darken( $c-careers, 5% );
+    a {
+      color: lighten( $c-careers, 25% );
+    }
+  }
+}
+
+.page-contact .cta,
+.case-study .cta {
+  background-color: $c-contact;
+  h3,
+  a {
+    color: darken( $c-contact, 40% );
+  }
+  &:hover {
+    background-color: darken( $c-contact, 7% );
+    a {
+      color: lighten( $c-contact, 25% );
+    }
+  }
+}
+
+.page-home .cta {
+  background-color: $c-services;
+}
+
+.case-study-cta {
+
+  @extend .cta;
+  padding-bottom: 0;
+  @extend .clearfix;
+
+  .content-wrapper {
+    position: relative;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    @media (max-width: $screen-sm){
+      font-size: $font-size-h3;
+    }
+  }
+
+  a {
+    padding-bottom: 0;
+    @extend .clearfix;
+    @media (min-width: $screen-sm){
+      padding-top: 2em;
+    }
+  }
+
+  img {
+    border: none;
+    display: block;
+    width: 220px;
+    margin-bottom: 0;
+    margin: 0 auto;
+    padding-top: 0;
+    @media (min-width: $screen-sm){
+      bottom: 0;
+      position: absolute;
+      left: 1em;
+      margin: 0;
+      float:left;
+    }
+  }
+
+  .cta-content {
+    @media (min-width: $screen-sm){
+      display: block;
+      margin-left: 250px;
+    }
+  }
+
+}

@@ -1,0 +1,218 @@
+/**
+ * Styles for the Kalabox page
+ */
+
+@mixin moveclouds-keyframes($name, $start, $middle, $end) {
+  @-webkit-keyframes $name {
+  	0% {-webkit-transform: translateX($start);}
+  	50% {-webkit-transform: translateX($middle);}
+  	100% {-webkit-transform: translateX($end);}
+  }
+  @keyframes $name {
+  	0% {transform: translateX($start);}
+  	50% {transform: translateX($middle);}
+  	100% {transform: translateX($end);}
+  }
+}
+
+@mixin kala-cloud($cloud-image, $cloud-bottom, $cloud-height, $cloud-bg-pos, $cloud-zindex, $cloud-anim){
+  background: url(../images/#{$cloud-image}.svg) no-repeat;
+  background-repeat: repeat-x;
+  bottom: $cloud-bottom;
+  height: $cloud-height;
+  background-position: $cloud-bg-pos;
+  z-index: $cloud-zindex;
+  @include animation($cloud-anim);
+}
+
+
+@include moveclouds-keyframes(cloudsfront, 0, 40%, 0);
+@include moveclouds-keyframes(cloudsdark, 0, -10%, 0);
+@include moveclouds-keyframes(cloudslight, 0, -8%, 0);
+@include moveclouds-keyframes(cloudswhite, 0, 6%, 0);
+@include moveclouds-keyframes(cloudsgray, 0, -2%, 0);
+
+body.page-kalabox {
+  background-color: $c-kala-blue;
+}
+
+.page-kalabox {
+
+  #what-is-kalabox- {
+    font-size: $font-size-h1;
+    font-weight: 100;
+  }
+
+  .lede {
+    padding-top: 6em;
+    padding-bottom: 2em;
+  }
+  .content-wrapper{
+    padding-top: 3em;
+    padding-bottom: 1em;
+  }
+  .content-footer{
+    padding-bottom: 4em;
+  }
+
+  .btn-ctas {
+    .btn-wrapper {
+      @extend .col-sm-6;
+    }
+    .btn {
+      display: block;
+      border-radius: none !important;
+    }
+  }
+
+  .cel {
+
+    @extend .clearfix;
+    @extend .col-sm-4;
+    margin: 1em 0 2em;
+
+    .media {
+      @extend .col-xs-6;
+      @extend .col-sm-12;
+      @extend .col-md-12;
+      @media (max-width:$screen-xs) {
+        width: 100%;
+      }
+      @media (min-width: $screen-xs) and (max-width: $screen-sm ) {
+        i {
+          padding-top: .5em;
+        }
+      }
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+
+    img {
+      @extend %responsive-image;
+    }
+
+    .circle {
+      background: #3f96d6;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      @media (min-width: $screen-md) {
+        width: 230px;
+        height: 230px;
+      }
+    }
+
+    .cel-content {
+      padding-top: 1.5em;
+      @extend .col-xs-6;
+      @media (max-width:$screen-xs) {
+        width: 100%;
+      }
+      @extend .col-sm-12;
+      @extend .col-md-12;
+      padding: 0;
+    }
+
+  }
+
+  .kb2-features {
+    .media {
+      text-align: center;
+    }
+    .cel-content {
+      @media (min-width: $screen-xs) and (max-width: $screen-sm ) {
+        padding-top: 1em;
+      }
+    }
+  }
+
+  #main-lede {
+    position: relative;
+    background-color: $c-kala-blue;
+    //background-color: #fff;
+    background-size: contain;
+    overflow: hidden;
+
+    .content-wrapper {
+      position: relative;
+      z-index: 11;
+      padding-top: 0;
+    }
+
+    h1 {
+      margin-top: 1em;
+    }
+
+    p.slogan {
+      margin-bottom: 3em;
+    }
+
+	  i.kalabox-logo {
+  	  display: block;
+  	  width: 25%;
+  	  height: 0;
+  	  padding-top: 39%;
+  	  margin: auto;
+  	  background: url(../images/kalabox/kalabox-logo.svg) no-repeat;
+  	  background-size: contain;
+
+  	  @media (min-width: $screen-sm) {
+  	    width: 80%;
+        height: 300px;
+      }
+	  }
+
+    @media (min-width: $screen-sm) {
+  	  i.cloud { // HA!
+        position: absolute;
+        left: -10%;
+        right: -10%;
+        background-position: left top;
+  	  }
+
+      i#cloud-front {
+        @include kala-cloud(clouds-front, 0, 300px, left bottom, 10, cloudsfront 200s linear infinite);
+        left: -100%;
+  	  }
+
+  	  i#cloud-dark {
+        @include kala-cloud(clouds-dark, 50px, 100px, 90% top, 9, cloudsdark 200s linear infinite);
+        background-repeat: no-repeat;
+  	  }
+
+  	  i#cloud-light {
+        @include kala-cloud(clouds-light, 50px, 200px, 50% top, 8, cloudslight 25s ease-in-out infinite);
+        background-repeat: no-repeat;
+  	  }
+
+  	  i#cloud-white {
+        @include kala-cloud(clouds-white, 35px, 200px, 50% bottom, 7, cloudswhite 50s linear infinite);
+  	  }
+
+  	  i#cloud-gray {
+        @include kala-cloud(clouds-gray, 80px, 200px, 50% top, 6, cloudsgray 25s linear infinite);
+         &:before {
+           content: 'asdf';
+           display: block;
+           height: 100%;
+           position: absolute;
+           bottom: -50%;
+           left: 0;
+           right: 0;
+           background-color: #E8E8E8;
+         }
+  	  }
+	  }
+  }
+
+  #cli-lede {
+    position: relative;
+
+    h2.kalabox-highlight {
+      font-size: 72px;
+      font-weight: 300;
+    }
+  }
+}

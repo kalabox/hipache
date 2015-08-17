@@ -1,0 +1,48 @@
+.icon {
+  @extend .fa-icon;
+  @extend .fa;
+}
+
+.icon.top {
+  @extend .fa-caret-square-o-up;
+}
+
+.icon.values {
+  @extend .fa-heart;
+}
+
+.icon.team {
+  @extend .fa-child;
+}
+
+.icon.clients {
+  @extend .fa-group;
+}
+
+.icon.services {
+  @extend .fa-lightbulb-o;
+}
+
+.icon.twitter {
+  @extend .fa-twitter;
+}
+
+.icon.drupal {
+  @extend .fa-drupal;
+}
+
+.icon.github {
+  @extend .fa-linkedin;
+}
+
+.icon.facebook {
+  @extend .fa-facebook;
+}
+
+.icon.linkedin {
+  @extend .fa-linkedin;
+}
+
+.icon.cta {
+  @extend .fa-caret-right;
+}

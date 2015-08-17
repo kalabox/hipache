@@ -1,0 +1,206 @@
+@include font-face("DinNextRounded", "dinnextrounded", "../fonts/dinnextrounded", 500 );
+@include font-face("DinNextRounded", "dinnextrounded.light", "../fonts/dinnextrounded-light", 300 );
+@include font-face("DinNextRounded", "dinnextrounded.medium", "../fonts/dinnextrounded-medium", 600 );
+
+@include font-face("SourceSansPro", "source_sans_proregular", "../fonts/sourcesanspro-regular" );
+@include font-face("SourceSansPro", "source_sans_proitalic", "../fonts/sourcesanspro-italic", normal, italic);
+@include font-face("SourceSansPro", "source_sans_probold", "../fonts/sourcesanspro-bold", bold );
+@include font-face("SourceSansPro", "source_sans_probold_italic", "../fonts/sourcesanspro-bolditalic", bold, italic);
+
+@include font-face(FontAwesome, "fontawesomeregular", "../fonts/fontawesome-webfont" );
+@include font-face(BLOKKNeue-Regular, "BLOKKNeue-Regular", "../fonts/BLOKKNeue-Regular" );
+
+@include font-face(Kalicon, "kalicon", "../fonts/kalicon" );
+
+// Styleguide 4.1
+//
+// Markup:
+// <h1>Let's demonstrate our typography!</h1>
+// <h2>Let's demonstrate our typography!</h2>
+// <h3>Let's demonstrate our typography!</h3>
+// <h4>Let's demonstrate our typography!</h4>
+// <h5>Let's demonstrate our typography!</h5>
+// <h6>Let's demonstrate our typography!</h6>
+// <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem neque mollitia dolore, eveniet perferendis dolor laboriosam, accusamus, temporibus aut facilis ad eum esse perspiciatis quos itaque deleniti provident est quibusdam!</p>
+// <blockquote>
+//  <p>
+//    A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away.
+//  </p>
+//  <footer><cite>Antoine de Saint-Exupery</cite></footer>
+// </blockquote>
+//
+// Styleguide 4.1
+//
+
+body { font-family: $font-family-base; }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: $headings-font-family;
+  /* this will likely not be this simple */
+  line-height: $headings-line-height;
+}
+
+textarea,
+input {
+  @include placeholder {
+    line-height: 1.5;
+  }
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: .25em;
+  line-height: 1.2;
+}
+
+$h1-font-size: $font-size-base * 3.5;
+$h2-font-size: $font-size-base * 2;
+$h3-font-size: $font-size-base * 1.6875;
+$h4-font-size: $font-size-base * 1.3125;
+$h5-font-size: $font-size-base * 1.125;
+$h6-font-size: $font-size-base;
+
+%h1 {
+  font-size: $h1-font-size;
+  font-weight: 300;
+  line-height: 1;
+}
+
+%h2 {
+  font-size: $h2-font-size;
+}
+
+%h3 {
+  font-size: $h3-font-size;
+  line-height: 1.125;
+}
+
+%h4 {
+  font-size: $h4-font-size;
+}
+
+%h5 {
+  font-size: $h5-font-size;
+}
+
+%h6 {
+  font-size: $h5-font-size;
+  font-family: $font-family-base;
+  line-height: $line-height-base;
+  font-weight: normal;
+}
+
+h1 { @extend %h1; }
+h2 { @extend %h2; }
+h3 { @extend %h3; }
+h4 { @extend %h4; }
+h5 { @extend %h5; }
+
+.page-services {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: $c-kala-navy;
+  }
+}
+
+.page-about-us {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: darken( $c-about-us, 40 );
+  }
+}
+
+.page-careers {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: darken( $c-careers, 40 );
+  }
+}
+
+.page-contact {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: darken( $c-careers, 50 );
+  }
+}
+
+.page-home {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: darken( $c-services, 30 );
+  }
+}
+
+.lede {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: white;
+  }
+}
+
+.modal-dialog {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: black;
+  }
+}
+
+
+
+.kalicon {
+  display: inline-block;
+  font-family: "Kalicon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.kalablog:before {
+  display:block;
+  content: "\f100";
+  width: 85px;
+  // hover fix for with aspect rations > 1:1
+  // http://stackoverflow.com/questions/21195490/bootstrap-glyphicon-hover-only-partially-colored
+  letter-spacing: 2em;
+}
+.kalabox:before {
+  display:block;
+  content: "\f101";
+  width: 110px;
+  // hover fix for with aspect rations > 1:1
+  // http://stackoverflow.com/questions/21195490/bootstrap-glyphicon-hover-only-partially-colored
+  letter-spacing: 2em;
+}

@@ -1,0 +1,12 @@
+
+.our-clients {
+  background: $gray-lighter;
+  margin-top: 2em;
+  padding: 1em 0 2em;
+}
+
+.clients_listing {
+  .client-logo {
+    @extend %reponsive-grid-item;
+  }
+}

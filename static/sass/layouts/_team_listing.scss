@@ -1,0 +1,135 @@
+#team_listing {
+  @extend .clearfix;
+  position: relative;
+  @media screen and (min-width: $screen-sm){
+    margin-top: 3em;
+  }
+}
+
+.teammember {
+
+  // .popover {
+  //   // left: 0 !important;
+  //   // top: -100px;
+  // }
+  @extend %teammember-grid;
+
+  margin-bottom: 2em;
+  margin-left: 0;
+  padding-left: 0;
+  // position: relative;
+
+  .name-title {
+    margin-top: .5em;
+    min-height: 4.5em;
+
+
+    h4,
+    h5 {
+      text-align: center;
+    }
+
+    h5 {
+      font-weight: 300;
+    }
+
+    @media screen and (max-width: $screen-sm ) {
+      h4 {
+        @extend %h5;
+      }
+      h4,
+      h5 {
+        text-align: left;
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+
+
+  .photo,
+  .photo img {
+
+    width: 140px;
+    height: 140px;
+
+    @media screen and (min-width: $screen-xs){
+      width: 180px;
+      height: 180px;
+    }
+    @media screen and (min-width: 550px){
+      width: 200px;
+      height: 200px;
+    }
+    @media screen and (min-width: $screen-sm){
+      width: 200px;
+      height: 200px;
+    }
+
+  }
+
+  .photo {
+
+    border-color: #fff;
+    border-width: 0px;
+    border-style: solid;
+    // transition-property: border-width, transform;
+    // transition-duration: .25s;
+    // @extend %easeOutQuad;
+    border-radius: 50%;
+
+    img {
+      // transition-property: top left;
+      // transition-duration: .25s;
+      // @extend %easeOutQuad;
+      position: relative;
+    }
+
+  }
+
+  &:hover {
+    .photo {
+      border-width: 6px;
+      img {
+        left: -6px;
+        top: -6px;
+      }
+    }
+  }
+
+  .photo {
+    // transition-property: width, height, left, top, margin-bottom;
+    // transition-duration: .125s;
+    // @extend %easeOutQuad;
+    @include box-shadow( $thumbnail-box-shadow );
+    margin-bottom: 0;
+    @media screen and (min-width: $screen-sm ) {
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 0 auto;
+    }
+  }
+
+  &.active {
+
+    h3 {
+      background: $c-kala-yellow;
+      border-radius: .25em;
+    }
+
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  .modal-template {
+    display: none;
+  }
+
+  @media screen and (max-width: $screen-sm ) {
+    margin-bottom: 1em;
+  }
+
+
+}

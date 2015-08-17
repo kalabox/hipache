@@ -1,0 +1,236 @@
+#footer {
+
+  position: relative;
+  z-index: 10;
+  background: $gray-lighter;
+  padding: .75em 0 .75em 0;
+  @extend clearfix;
+  width: 100%;
+
+
+  .page-home & {
+
+    background-color: transparent;
+    padding-left: 0;
+    color: #fff;
+
+    position: fixed;
+    bottom: 1em;
+
+    .org {
+      display: none;
+    }
+
+    .contact-info {
+
+      float: left;
+      padding: 0 0 0 2em !important;
+
+      @media (min-width: $screen-sm) {
+        float: right;
+      }
+
+    }
+
+  }
+
+}
+
+
+#footer-logo {
+
+  width: 100%;
+  max-width: 200px;
+  padding-bottom: 44%;
+  background: url(/images/kalamuna-lockup.svg) no-repeat;
+  background-size: contain;
+
+}
+
+
+#address {
+
+  width: 100%;
+  @extend clearfix;
+  float: left;
+  padding-left: .25em;
+  padding-top: 2em;
+  font-size: 13px;
+
+  @media (min-width: $screen-sm){
+    width: 50%;
+    float: left;
+    padding-top: 1em;
+  }
+
+  .org {
+    float: left;
+    width: 50%;
+    max-width: 200px;
+  }
+
+  .contact-info {
+
+    float: right;
+    width: 50%;
+    padding: 3.7% 1em;
+    line-height: 1.25em;
+
+    @media (min-width: $screen-sm){
+      float: left;
+      padding-bottom: 1em;
+      padding-top: 1em;
+    }
+
+  }
+
+}
+
+
+#footer-nav {
+
+  width: 100%;
+  // padding-left: 1em;
+  // padding-right: 1em;
+
+  @media  (min-width: $screen-sm) {
+    float: right;
+    width: 50%;
+    @extend .clearfix;
+  }
+
+  .page-home & {
+    width: 100%;
+  }
+
+}
+
+
+#nav-social {
+
+  position: relative;
+  top: .95em;
+
+  ul {
+
+    list-style: none;
+    padding: 0;
+
+    @media (min-width: $screen-sm){
+      display: block;
+      width: auto;
+      padding-right: 1em;
+      float: right;
+    }
+
+    li {
+
+      text-align: center;
+
+      a {
+        &:hover {
+          background: none;
+          color: mix(black,$c-kala-blue,30);
+          text-decoration: none;
+        }
+      }
+
+      @media (min-width:$screen-sm) {
+        width: auto;
+        display: block;
+        float: left;
+        text-align: left;
+        padding-left: 1em;
+      }
+
+    }
+
+  }
+
+  ul.kala li {
+    width: 50%;
+    float: left;
+  }
+
+  ul.social li {
+    float: left;
+    width: 25%;
+  }
+
+}
+
+
+#nav-social {
+
+  // on homepage only
+  .page-home & a {
+
+    color: #fff;
+    @media (min-width: $screen-xs) {
+
+      padding-top: 0;
+      padding-bottom: 0;
+
+      &:hover {
+        color: mix( black, $c-kala-blue, 0);
+      }
+
+    }
+
+  }
+
+}
+
+#nav-social ul.kala {
+
+  position: relative;
+  z-index: 10;
+  font-size: 2em;
+  position: relative;
+  top: -.325em;
+
+  .box a {
+    display: block;
+    width: 110px;
+    margin: 0 auto;
+    .kalabox {
+      text-align: left;
+      width: 110px;
+    }
+  }
+
+  .blog a {
+    display: block;
+    width: 85px;
+    margin: 0 auto;
+    .kalablog {
+      text-align: left;
+      width: 85px;
+    }
+  }
+
+  @media (min-width:$screen-sm) {
+    width: 280px;
+    li {
+      margin-left: 0;
+      padding-left: 0;
+      box-size: border-box;
+    }
+    .box {
+      width: 55%;
+    }
+    .blog {
+      width: 45%
+    }
+  }
+
+}
+
+#nav-social ul.social {
+  position: relative;
+  z-index: 11;
+  font-size: 1.75em;
+  @media (min-width: $screen-sm) {
+    margin-right: .25em;
+  }
+}

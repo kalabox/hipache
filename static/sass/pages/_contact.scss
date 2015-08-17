@@ -1,0 +1,27 @@
+/**
+ * Styles for the Contact page
+ */
+.page-contact {
+  #contact-msg,
+  #contact-form {
+    @extend .col-sm-9;
+    clear: both;
+  }
+  #contact-form {
+    margin: 1em 0 2em;
+    #mce-NAME {
+      width: 45%;
+      float: left;
+    }
+    #mce-EMAIL {
+      width: 45%;
+      float: right;
+    }
+  }
+
+  // override boostrap defaults
+  .form-horizontal .form-group {
+    margin: 0 0 15px;
+  }
+
+}
