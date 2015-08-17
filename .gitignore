@@ -4,3 +4,4 @@ node_modules
 *.rdb
 *.pyc
 *~
+bower_components
