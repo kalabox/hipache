@@ -1,9 +1,0 @@
-// extending the bootstrap thumbnail
-/////////////////////////////////////
-.careers_listing,
-.teammember {
-  img {
-    @extend %responsiveimage;
-  }
-}
-

@@ -311,7 +311,7 @@ img {
   vertical-align: middle; }
 
 /* line 81, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/scaffolding */
-.img-responsive, .case-study .content-wrapper #cs-quote blockquote footer img, #client-testimonials blockquote footer img, .case-study #top-shot img, .case-study #cs-screenshots img {
+.img-responsive {
   display: block;
   width: 100% \9;
   max-width: 100%;
@@ -662,17 +662,17 @@ blockquote footer:before, blockquote small:before, blockquote .small:before {
   content: '\2014 \00A0'; }
 
 /* line 275, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/type */
-.blockquote-reverse, blockquote.pull-right, #strategy blockquote.controls {
+.blockquote-reverse, blockquote.pull-right {
   padding-right: 15px;
   padding-left: 0;
   text-align: right; 
   border-right: 5px solid #eee;
   border-left: 0;}
 /* line 286, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/type */
-.blockquote-reverse footer:before, .blockquote-reverse small:before, .blockquote-reverse .small:before, blockquote.pull-right footer:before, #strategy blockquote.controls footer:before, blockquote.pull-right small:before, #strategy blockquote.controls small:before, blockquote.pull-right .small:before, #strategy blockquote.controls .small:before {
+.blockquote-reverse footer:before, .blockquote-reverse small:before, .blockquote-reverse .small:before, blockquote.pull-right footer:before, blockquote.pull-right small:before, blockquote.pull-right .small:before {
   content: ''; }
 /* line 287, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/type */
-.blockquote-reverse footer:after, .blockquote-reverse small:after, .blockquote-reverse .small:after, blockquote.pull-right footer:after, #strategy blockquote.controls footer:after, blockquote.pull-right small:after, #strategy blockquote.controls small:after, blockquote.pull-right .small:after, #strategy blockquote.controls .small:after {
+.blockquote-reverse footer:after, .blockquote-reverse small:after, .blockquote-reverse .small:after, blockquote.pull-right footer:after, blockquote.pull-right small:after, blockquote.pull-right .small:after {
   content: '\00A0 \2014'; }
 
 /* line 295, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/type */
@@ -739,26 +739,26 @@ pre code {
   overflow-y: scroll; }
 
 /* line 10, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/grid */
-.container, .content-wrapper, .case-study .content-wrapper {
+.container, .content-wrapper {
   padding-right: 15px; 
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;}
 /* line 15, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/clearfix */
-.container:before, .content-wrapper:before, .case-study .content-wrapper:before, .container:after, .content-wrapper:after, .case-study .content-wrapper:after {
+.container:before, .content-wrapper:before, .container:after, .content-wrapper:after {
   display: table; 
   content: " ";}
 /* line 19, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/clearfix */
-.container:after, .content-wrapper:after, .case-study .content-wrapper:after {
+.container:after, .content-wrapper:after {
   clear: both; }
 @media (min-width: 768px) {
-  .container, .content-wrapper, .case-study .content-wrapper {
+  .container, .content-wrapper {
     width: 750px; } }
 @media (min-width: 992px) {
-  .container, .content-wrapper, .case-study .content-wrapper {
+  .container, .content-wrapper {
     width: 970px; } }
 @media (min-width: 1200px) {
-  .container, .content-wrapper, .case-study .content-wrapper {
+  .container, .content-wrapper {
     width: 1170px; } }
 
 /* line 30, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/grid */
@@ -776,26 +776,26 @@ pre code {
   clear: both; }
 
 /* line 39, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/grid */
-.row, .case-study .content-wrapper #cs-intro, .case-study .content-wrapper #cs-quote, .case-study .content-wrapper #cs-challenge, .case-study .content-wrapper #cs-highlights, .case-study #case-study-nav ul {
+.row {
   margin-right: -15px; 
   margin-left: -15px;}
 /* line 15, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/clearfix */
-.row:before, .case-study .content-wrapper #cs-intro:before, .case-study .content-wrapper #cs-quote:before, .case-study .content-wrapper #cs-challenge:before, .case-study .content-wrapper #cs-highlights:before, .case-study #case-study-nav ul:before, .row:after, .case-study .content-wrapper #cs-intro:after, .case-study .content-wrapper #cs-quote:after, .case-study .content-wrapper #cs-challenge:after, .case-study .content-wrapper #cs-highlights:after, .case-study #case-study-nav ul:after {
+.row:before, .row:after {
   display: table; 
   content: " ";}
 /* line 19, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/clearfix */
-.row:after, .case-study .content-wrapper #cs-intro:after, .case-study .content-wrapper #cs-quote:after, .case-study .content-wrapper #cs-challenge:after, .case-study .content-wrapper #cs-highlights:after, .case-study #case-study-nav ul:after {
+.row:after {
   clear: both; }
 
 /* line 11, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/grid-framework */
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, #strategy .controls, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, #development .dev-point, #support .support-plan, #client-testimonials blockquote footer, .page-kalabox .cel, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, #support .support-plan .media, #support .support-plan .plan_content, .page-kalabox .cel .media, .page-kalabox .cel .cel-content, .col-sm-6, .case-study .content-wrapper #cs-intro > div, .case-study .content-wrapper #cs-highlights ul li, .case-study .content-wrapper #cs-results, .case-study .content-wrapper #cs-tools, .case-study #case-study-nav ul li, .page-kalabox .btn-ctas .btn-wrapper, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .case-study .content-wrapper #cs-challenge > div, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, #strategy .content, #client-testimonials blockquote p, .col-md-8, .case-study .content-wrapper #cs-challenge > div, .col-lg-8, .col-xs-9, .col-sm-9, .page-contact #contact-msg, .page-contact #contact-form, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .case-study .content-wrapper #cs-quote blockquote, #client-testimonials blockquote, .case-study .content-wrapper #cs-intro > div, .case-study .content-wrapper #cs-challenge > div, .case-study .content-wrapper #cs-highlights h3, .case-study .content-wrapper #cs-highlights ul, .case-study .content-wrapper #cs-highlights ul li, .case-study .content-wrapper #cs-results, .case-study .content-wrapper #cs-tools, .case-study #case-study-nav ul li, #client-testimonials blockquote p, #client-testimonials blockquote footer, .col-sm-12, #support .support-plan .media, #support .support-plan .plan_content, .page-kalabox .cel .media, .page-kalabox .cel .cel-content, .col-md-12, #support .support-plan .media, #support .support-plan .plan_content, .page-kalabox .cel .media, .page-kalabox .cel .cel-content, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .page-kalabox .cel, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .page-kalabox .cel .media, .page-kalabox .cel .cel-content, .col-sm-6, .page-kalabox .btn-ctas .btn-wrapper, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .page-kalabox .cel .media, .page-kalabox .cel .cel-content, .col-md-12, .page-kalabox .cel .media, .page-kalabox .cel .cel-content, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-right: 15px; 
   padding-left: 15px;}
 
 /* line 27, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/grid-framework */
-.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, #support .support-plan .media, #support .support-plan .plan_content, .page-kalabox .cel .media, .page-kalabox .cel .cel-content, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .case-study .content-wrapper #cs-quote blockquote, #client-testimonials blockquote, .case-study .content-wrapper #cs-intro > div, .case-study .content-wrapper #cs-challenge > div, .case-study .content-wrapper #cs-highlights h3, .case-study .content-wrapper #cs-highlights ul, .case-study .content-wrapper #cs-highlights ul li, .case-study .content-wrapper #cs-results, .case-study .content-wrapper #cs-tools, .case-study #case-study-nav ul li, #client-testimonials blockquote p, #client-testimonials blockquote footer {
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .page-kalabox .cel .media, .page-kalabox .cel .cel-content, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   float: left; }
 
 /* line 35, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/grid-framework */
@@ -819,7 +819,7 @@ pre code {
   width: 41.66667%; }
 
 /* line 35, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/grid-framework */
-.col-xs-6, #support .support-plan .media, #support .support-plan .plan_content, .page-kalabox .cel .media, .page-kalabox .cel .cel-content {
+.col-xs-6, .page-kalabox .cel .media, .page-kalabox .cel .cel-content {
   width: 50%; }
 
 /* line 35, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/grid-framework */
@@ -843,7 +843,7 @@ pre code {
   width: 91.66667%; }
 
 /* line 35, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/grid-framework */
-.col-xs-12, .case-study .content-wrapper #cs-quote blockquote, #client-testimonials blockquote, .case-study .content-wrapper #cs-intro > div, .case-study .content-wrapper #cs-challenge > div, .case-study .content-wrapper #cs-highlights h3, .case-study .content-wrapper #cs-highlights ul, .case-study .content-wrapper #cs-highlights ul li, .case-study .content-wrapper #cs-results, .case-study .content-wrapper #cs-tools, .case-study #case-study-nav ul li, #client-testimonials blockquote p, #client-testimonials blockquote footer {
+.col-xs-12 {
   width: 100%; }
 
 /* line 55, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/grid-framework */
@@ -1004,7 +1004,7 @@ pre code {
 
 @media (min-width: 768px) {
   /* line 27, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/grid-framework */
-  .col-sm-1, .col-sm-2, .col-sm-3, #strategy .controls, .col-sm-4, #development .dev-point, #support .support-plan, #client-testimonials blockquote footer, .page-kalabox .cel, .col-sm-5, .col-sm-6, .case-study .content-wrapper #cs-intro > div, .case-study .content-wrapper #cs-highlights ul li, .case-study .content-wrapper #cs-results, .case-study .content-wrapper #cs-tools, .case-study #case-study-nav ul li, .page-kalabox .btn-ctas .btn-wrapper, .col-sm-7, .case-study .content-wrapper #cs-challenge > div, .col-sm-8, #strategy .content, #client-testimonials blockquote p, .col-sm-9, .page-contact #contact-msg, .page-contact #contact-form, .col-sm-10, .col-sm-11, .col-sm-12, #support .support-plan .media, #support .support-plan .plan_content, .page-kalabox .cel .media, .page-kalabox .cel .cel-content {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .page-kalabox .cel, .col-sm-5, .col-sm-6, .page-kalabox .btn-ctas .btn-wrapper, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .page-kalabox .cel .media, .page-kalabox .cel .cel-content {
     float: left; }
 
   /* line 35, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/grid-framework */
@@ -1016,11 +1016,11 @@ pre code {
     width: 16.66667%; }
 
   /* line 35, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/grid-framework */
-  .col-sm-3, #strategy .controls {
+  .col-sm-3 {
     width: 25%; }
 
   /* line 35, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/grid-framework */
-  .col-sm-4, #development .dev-point, #support .support-plan, #client-testimonials blockquote footer, .page-kalabox .cel {
+  .col-sm-4, .page-kalabox .cel {
     width: 33.33333%; }
 
   /* line 35, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/grid-framework */
@@ -1028,19 +1028,19 @@ pre code {
     width: 41.66667%; }
 
   /* line 35, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/grid-framework */
-  .col-sm-6, .case-study .content-wrapper #cs-intro > div, .case-study .content-wrapper #cs-highlights ul li, .case-study .content-wrapper #cs-results, .case-study .content-wrapper #cs-tools, .case-study #case-study-nav ul li, .page-kalabox .btn-ctas .btn-wrapper {
+  .col-sm-6, .page-kalabox .btn-ctas .btn-wrapper {
     width: 50%; }
 
   /* line 35, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/grid-framework */
-  .col-sm-7, .case-study .content-wrapper #cs-challenge > div {
+  .col-sm-7 {
     width: 58.33333%; }
 
   /* line 35, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/grid-framework */
-  .col-sm-8, #strategy .content, #client-testimonials blockquote p {
+  .col-sm-8 {
     width: 66.66667%; }
 
   /* line 35, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/grid-framework */
-  .col-sm-9, .page-contact #contact-msg, .page-contact #contact-form {
+  .col-sm-9 {
     width: 75%; }
 
   /* line 35, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/grid-framework */
@@ -1052,7 +1052,7 @@ pre code {
     width: 91.66667%; }
 
   /* line 35, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/grid-framework */
-  .col-sm-12, #support .support-plan .media, #support .support-plan .plan_content, .page-kalabox .cel .media, .page-kalabox .cel .cel-content {
+  .col-sm-12, .page-kalabox .cel .media, .page-kalabox .cel .cel-content {
     width: 100%; }
 
   /* line 55, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/grid-framework */
@@ -1176,7 +1176,7 @@ pre code {
     margin-left: 25%; }
 
   /* line 60, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/grid-framework */
-  .col-sm-offset-4, #client-testimonials blockquote:nth-child(odd) p {
+  .col-sm-offset-4 {
     margin-left: 33.33333%; }
 
   /* line 60, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/grid-framework */
@@ -1184,7 +1184,7 @@ pre code {
     margin-left: 41.66667%; }
 
   /* line 60, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/grid-framework */
-  .col-sm-offset-6, .case-study .content-wrapper #cs-intro > div {
+  .col-sm-offset-6 {
     margin-left: 50%; }
 
   /* line 60, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/grid-framework */
@@ -1214,7 +1214,7 @@ pre code {
 
 @media (min-width: 992px) {
   /* line 27, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/grid-framework */
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .case-study .content-wrapper #cs-challenge > div, .col-md-9, .col-md-10, .col-md-11, .col-md-12, #support .support-plan .media, #support .support-plan .plan_content, .page-kalabox .cel .media, .page-kalabox .cel .cel-content {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .page-kalabox .cel .media, .page-kalabox .cel .cel-content {
     float: left; }
 
   /* line 35, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/grid-framework */
@@ -1246,7 +1246,7 @@ pre code {
     width: 58.33333%; }
 
   /* line 35, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/grid-framework */
-  .col-md-8, .case-study .content-wrapper #cs-challenge > div {
+  .col-md-8 {
     width: 66.66667%; }
 
   /* line 35, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/grid-framework */
@@ -1262,7 +1262,7 @@ pre code {
     width: 91.66667%; }
 
   /* line 35, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/grid-framework */
-  .col-md-12, #support .support-plan .media, #support .support-plan .plan_content, .page-kalabox .cel .media, .page-kalabox .cel .cel-content {
+  .col-md-12, .page-kalabox .cel .media, .page-kalabox .cel .cel-content {
     width: 100%; }
 
   /* line 55, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/grid-framework */
@@ -2476,7 +2476,7 @@ tbody.collapse.in {
   border-radius: 4px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, .175);}
 /* line 52, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/dropdowns */
-.dropdown-menu.pull-right, #strategy .dropdown-menu.controls {
+.dropdown-menu.pull-right {
   right: 0;
   left: auto; }
 /* line 58, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/dropdowns */
@@ -2556,7 +2556,7 @@ tbody.collapse.in {
   z-index: 990; }
 
 /* line 172, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/dropdowns */
-.pull-right > .dropdown-menu, #strategy .controls > .dropdown-menu {
+.pull-right > .dropdown-menu {
   right: 0;
   left: auto; }
 
@@ -2858,51 +2858,51 @@ tbody.collapse.in {
   margin-left: -1px; }
 
 /* line 9, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/navs */
-.nav, .tags {
+.nav {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none; }
 /* line 15, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/clearfix */
-.nav:before, .tags:before, .nav:after, .tags:after {
+.nav:before, .nav:after {
   display: table; 
   content: " ";}
 /* line 19, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/clearfix */
-.nav:after, .tags:after {
+.nav:after {
   clear: both; }
 /* line 15, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/navs */
-.nav > li, .tags > li {
+.nav > li {
   position: relative;
   display: block; }
 /* line 19, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/navs */
-.nav > li > a, .tags > li > a {
+.nav > li > a {
   position: relative;
   display: block;
   padding: 10px 15px; }
 /* line 24, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/navs */
-.nav > li > a:hover, .tags > li > a:hover, .nav > li > a:focus, .tags > li > a:focus {
+.nav > li > a:hover, .nav > li > a:focus {
   text-decoration: none;
   background-color: #eee; }
 /* line 31, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/navs */
-.nav > li.disabled > a, .tags > li.disabled > a {
+.nav > li.disabled > a {
   color: #777; }
 /* line 35, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/navs */
-.nav > li.disabled > a:hover, .tags > li.disabled > a:hover, .nav > li.disabled > a:focus, .tags > li.disabled > a:focus {
+.nav > li.disabled > a:hover, .nav > li.disabled > a:focus {
   color: #777;
   text-decoration: none;
   cursor: not-allowed; 
   background-color: transparent;}
 /* line 48, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/navs */
-.nav .open > a, .tags .open > a, .nav .open > a:hover, .tags .open > a:hover, .nav .open > a:focus, .tags .open > a:focus {
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
   background-color: #eee;
   border-color: #3f96d6; }
 /* line 59, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/navs */
-.nav .nav-divider, .tags .nav-divider {
+.nav .nav-divider {
   height: 1px;
   margin: 10px 0;
   overflow: hidden;
   background-color: #e5e5e5; }
 /* line 66, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/navs */
-.nav > li > a > img, .tags > li > a > img {
+.nav > li > a > img {
   max-width: none; }
 
 /* line 76, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/navs */
@@ -2930,16 +2930,16 @@ tbody.collapse.in {
   border-bottom-color: transparent;}
 
 /* line 118, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/navs */
-.nav-pills > li, .tags > li {
+.nav-pills > li {
   float: left; }
 /* line 122, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/navs */
-.nav-pills > li > a, .tags > li > a {
+.nav-pills > li > a {
   border-radius: 0; }
 /* line 125, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/navs */
-.nav-pills > li + li, .tags > li + li {
+.nav-pills > li + li {
   margin-left: 2px; }
 /* line 133, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/navs */
-.nav-pills > li.active > a, .tags > li.active > a, .nav-pills > li.active > a:hover, .tags > li.active > a:hover, .nav-pills > li.active > a:focus, .tags > li.active > a:focus {
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   color: #fff;
   background-color: #3f96d6; }
 
@@ -3650,11 +3650,11 @@ a.label:hover, a.label:focus {
   top: 0;
   padding: 1px 5px; }
 /* line 40, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/badges */
-a.list-group-item.active > .badge, .nav-pills > .active > a > .badge, .tags > .active > a > .badge {
+a.list-group-item.active > .badge, .nav-pills > .active > a > .badge {
   color: #3f96d6;
   background-color: #fff; }
 /* line 44, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/badges */
-.nav-pills > li > a > .badge, .tags > li > a > .badge {
+.nav-pills > li > a > .badge {
   margin-left: 3px; }
 
 /* line 52, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/badges */
@@ -3699,7 +3699,7 @@ a.badge:hover, a.badge:focus {
     font-size: 72px; } }
 
 /* line 7, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/thumbnails */
-.thumbnail, .careers_listing .role .actuator {
+.thumbnail {
   display: block;
   padding: 4px;
   margin-bottom: 22px;
@@ -3709,7 +3709,7 @@ a.badge:hover, a.badge:focus {
   border-radius: 4px;
   transition: all .2s ease-in-out; }
 /* line 18, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/thumbnails */
-.thumbnail > img, .careers_listing .role .actuator > img, .thumbnail a > img, .careers_listing .role .actuator a > img {
+.thumbnail > img, .thumbnail a > img {
   display: block;
   width: 100% \9;
   max-width: 100%;
@@ -3717,12 +3717,12 @@ a.badge:hover, a.badge:focus {
   margin-right: auto; 
   margin-left: auto;}
 /* line 27, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/thumbnails */
-.thumbnail .caption, .careers_listing .role .actuator .caption {
+.thumbnail .caption {
   padding: 9px;
   color: #333; }
 
 /* line 36, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/thumbnails */
-a.thumbnail:hover, .careers_listing .role a.actuator:hover, a.thumbnail:focus, .careers_listing .role a.actuator:focus, a.thumbnail.active, .careers_listing .role a.active.actuator {
+a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
   border-color: #3f96d6; }
 
 /* line 9, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/alerts */
@@ -3917,7 +3917,7 @@ a.thumbnail:hover, .careers_listing .role a.actuator:hover, a.thumbnail:focus, .
 .media > .pull-left {
   margin-right: 10px; }
 /* line 43, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/media */
-.media > .pull-right, #strategy .media > .controls {
+.media > .pull-right {
   margin-left: 10px; }
 
 /* line 53, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/media */
@@ -4758,11 +4758,11 @@ button.close {
   border-left-color: #ecca34;}
 
 /* line 15, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/clearfix */
-.clearfix:before, #onpoint ul:before, #offpoint > ul:first-of-type:before, .intro ul:before, .our-team:before, .our-clients:before, .our-values:before, #page-cta:before, .careers_listing:before, .careers_listing .drawer:before, .careers_listing .drawer .content:before, #team_listing:before, .drawer:before, .drawer .content:before, .modal-header .social-links:before, .modal-content.vcard > .content:before, .powers:before, .case-study-cta:before, .case-study-cta a:before, #footer-nav:before, .page-kalabox .cel:before, .clearfix:after, #onpoint ul:after, #offpoint > ul:first-of-type:after, .intro ul:after, .our-team:after, .our-clients:after, .our-values:after, #page-cta:after, .careers_listing:after, .careers_listing .drawer:after, .careers_listing .drawer .content:after, #team_listing:after, .drawer:after, .drawer .content:after, .modal-header .social-links:after, .modal-content.vcard > .content:after, .powers:after, .case-study-cta:after, .case-study-cta a:after, #footer-nav:after, .page-kalabox .cel:after {
+.clearfix:before, .our-team:before, .our-clients:before, .our-values:before, #page-cta:before, .page-kalabox .cel:before, .clearfix:after, .our-team:after, .our-clients:after, .our-values:after, #page-cta:after, .page-kalabox .cel:after {
   display: table; 
   content: " ";}
 /* line 19, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/clearfix */
-.clearfix:after, #onpoint ul:after, #offpoint > ul:first-of-type:after, .intro ul:after, .our-team:after, .our-clients:after, .our-values:after, #page-cta:after, .careers_listing:after, .careers_listing .drawer:after, .careers_listing .drawer .content:after, #team_listing:after, .drawer:after, .drawer .content:after, .modal-header .social-links:after, .modal-content.vcard > .content:after, .powers:after, .case-study-cta:after, .case-study-cta a:after, #footer-nav:after, .page-kalabox .cel:after {
+.clearfix:after, .our-team:after, .our-clients:after, .our-values:after, #page-cta:after, .page-kalabox .cel:after {
   clear: both; }
 
 /* line 12, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/utilities */
@@ -4772,7 +4772,7 @@ button.close {
   margin-left: auto;}
 
 /* line 15, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/utilities */
-.pull-right, #strategy .controls {
+.pull-right {
   float: right !important; }
 
 /* line 18, bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/utilities */
@@ -5022,2113 +5022,6 @@ button.close {
 .breadcrumb:before, .carousel:before {
   content: "This element has been purposely removed from Bootstrap for Kalamuna.com."; }
 
-/*!
- *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
- *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
- */
-/* FONT PATH
- * -------------------------- */
-@font-face {
-  font-family: 'FontAwesome';
-  font-style: normal; 
-  font-weight: normal;
-
-  src: url('../fonts//fontawesome-webfont.eot?v=4.2.0');
-  src: url('../fonts//fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'), url('../fonts//fontawesome-webfont.woff?v=4.2.0') format('woff'), url('../fonts//fontawesome-webfont.ttf?v=4.2.0') format('truetype'), url('../fonts//fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');}
-
-/* line 1, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/core */
-.fa, .bootbox-close-button, .modal-header .close .icon, .icon {
-  display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-
-/* makes the font 33% larger relative to the icon container */
-/* line 5, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/larger */
-.fa-lg {
-  font-size: 1.33333em;
-  line-height: .75em;
-  vertical-align: -15%; }
-
-/* line 10, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/larger */
-.fa-2x {
-  font-size: 2em; }
-
-/* line 11, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/larger */
-.fa-3x {
-  font-size: 3em; }
-
-/* line 12, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/larger */
-.fa-4x {
-  font-size: 4em; }
-
-/* line 13, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/larger */
-.fa-5x {
-  font-size: 5em; }
-
-/* line 1, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/fixed-width */
-.fa-fw {
-  width: 1.28571em;
-  text-align: center; }
-
-/* line 1, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/list */
-.fa-ul {
-  padding-left: 0;
-  margin-left: 2.14286em;
-  list-style-type: none; }
-/* line 5, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/list */
-.fa-ul > li {
-  position: relative; }
-
-/* line 7, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/list */
-.fa-li {
-  position: absolute;
-  top: .14286em;
-  left: -2.14286em;
-  width: 2.14286em;
-  text-align: center; }
-/* line 13, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/list */
-.fa-li.fa-lg {
-  left: -1.85714em; }
-
-/* line 1, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/bordered-pulled */
-.fa-border {
-  padding: .2em .25em .15em;
-  border: solid .08em #eee;
-  border-radius: .1em; }
-
-/* line 7, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/bordered-pulled */
-.pull-right, #strategy .controls {
-  float: right; }
-
-/* line 8, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/bordered-pulled */
-.pull-left {
-  float: left; }
-
-/* line 11, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/bordered-pulled */
-.fa.pull-left, .pull-left.bootbox-close-button, .modal-header .close .pull-left.icon, .pull-left.icon {
-  margin-right: .3em; }
-/* line 12, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/bordered-pulled */
-.fa.pull-right, #strategy .fa.controls, #strategy .controls.bootbox-close-button, #strategy .controls.icon, .pull-right.bootbox-close-button, .modal-header .close .pull-right.icon, .pull-right.icon {
-  margin-left: .3em; }
-
-/* line 1, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/spinning */
-.fa-spin {
-  -webkit-animation: fa-spin 2s infinite linear;
-          animation: fa-spin 2s infinite linear; }
-
-@-webkit-keyframes fa-spin {
-  /* line 7, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/spinning */
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); }
-
-  /* line 11, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/spinning */
-  100% {
-    -webkit-transform: rotate(359deg);
-            transform: rotate(359deg); } }
-
-@keyframes fa-spin {
-  /* line 18, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/spinning */
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); }
-
-  /* line 22, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/spinning */
-  100% {
-    -webkit-transform: rotate(359deg);
-            transform: rotate(359deg); } }
-
-/* line 1, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/rotated-flipped */
-.fa-rotate-90 {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
-  -webkit-transform: rotate(90deg);
-      -ms-transform: rotate(90deg);
-          transform: rotate(90deg); }
-
-/* line 2, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/rotated-flipped */
-.fa-rotate-180 {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
-  -webkit-transform: rotate(180deg);
-      -ms-transform: rotate(180deg);
-          transform: rotate(180deg); }
-
-/* line 3, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/rotated-flipped */
-.fa-rotate-270 {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-  -webkit-transform: rotate(270deg);
-      -ms-transform: rotate(270deg);
-          transform: rotate(270deg); }
-
-/* line 5, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/rotated-flipped */
-.fa-flip-horizontal {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
-  -webkit-transform: scale(-1, 1);
-      -ms-transform: scale(-1, 1);
-          transform: scale(-1, 1); }
-
-/* line 6, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/rotated-flipped */
-.fa-flip-vertical {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
-  -webkit-transform: scale(1, -1);
-      -ms-transform: scale(1, -1);
-          transform: scale(1, -1); }
-
-/* line 8, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/rotated-flipped */
-:root .fa-rotate-90, :root .fa-rotate-180, :root .fa-rotate-270, :root .fa-flip-horizontal, :root .fa-flip-vertical {
-          filter: none; 
-
-  -webkit-filter: none;}
-
-/* line 1, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/stacked */
-.fa-stack {
-  position: relative;
-  display: inline-block;
-  width: 2em;
-  height: 2em;
-  line-height: 2em;
-  vertical-align: middle; }
-
-/* line 9, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/stacked */
-.fa-stack-1x, .fa-stack-2x {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  text-align: center; }
-
-/* line 15, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/stacked */
-.fa-stack-1x {
-  line-height: inherit; }
-
-/* line 16, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/stacked */
-.fa-stack-2x {
-  font-size: 2em; }
-
-/* line 17, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/stacked */
-.fa-inverse {
-  color: #fff; }
-
-/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
-   readers do not read off random characters that represent icons */
-/* line 4, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-glass:before {
-  content: "\f000"; }
-
-/* line 5, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-music:before {
-  content: "\f001"; }
-
-/* line 6, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-search:before {
-  content: "\f002"; }
-
-/* line 7, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-envelope-o:before {
-  content: "\f003"; }
-
-/* line 8, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-heart:before, .icon.values:before {
-  content: "\f004"; }
-
-/* line 9, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-star:before {
-  content: "\f005"; }
-
-/* line 10, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-star-o:before {
-  content: "\f006"; }
-
-/* line 11, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-user:before {
-  content: "\f007"; }
-
-/* line 12, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-film:before {
-  content: "\f008"; }
-
-/* line 13, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-th-large:before {
-  content: "\f009"; }
-
-/* line 14, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-th:before {
-  content: "\f00a"; }
-
-/* line 15, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-th-list:before {
-  content: "\f00b"; }
-
-/* line 16, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-check:before {
-  content: "\f00c"; }
-
-/* line 17, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-remove:before, .fa-close:before, .fa-times:before {
-  content: "\f00d"; }
-
-/* line 18, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-search-plus:before {
-  content: "\f00e"; }
-
-/* line 19, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-search-minus:before {
-  content: "\f010"; }
-
-/* line 20, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-power-off:before {
-  content: "\f011"; }
-
-/* line 21, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-signal:before {
-  content: "\f012"; }
-
-/* line 22, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-gear:before, .fa-cog:before {
-  content: "\f013"; }
-
-/* line 23, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-trash-o:before {
-  content: "\f014"; }
-
-/* line 24, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-home:before {
-  content: "\f015"; }
-
-/* line 25, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-file-o:before {
-  content: "\f016"; }
-
-/* line 26, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-clock-o:before {
-  content: "\f017"; }
-
-/* line 27, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-road:before {
-  content: "\f018"; }
-
-/* line 28, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-download:before {
-  content: "\f019"; }
-
-/* line 29, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-arrow-circle-o-down:before {
-  content: "\f01a"; }
-
-/* line 30, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-arrow-circle-o-up:before {
-  content: "\f01b"; }
-
-/* line 31, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-inbox:before {
-  content: "\f01c"; }
-
-/* line 32, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-play-circle-o:before {
-  content: "\f01d"; }
-
-/* line 33, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-rotate-right:before, .fa-repeat:before {
-  content: "\f01e"; }
-
-/* line 34, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-refresh:before {
-  content: "\f021"; }
-
-/* line 35, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-list-alt:before {
-  content: "\f022"; }
-
-/* line 36, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-lock:before {
-  content: "\f023"; }
-
-/* line 37, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-flag:before {
-  content: "\f024"; }
-
-/* line 38, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-headphones:before {
-  content: "\f025"; }
-
-/* line 39, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-volume-off:before {
-  content: "\f026"; }
-
-/* line 40, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-volume-down:before {
-  content: "\f027"; }
-
-/* line 41, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-volume-up:before {
-  content: "\f028"; }
-
-/* line 42, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-qrcode:before {
-  content: "\f029"; }
-
-/* line 43, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-barcode:before {
-  content: "\f02a"; }
-
-/* line 44, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-tag:before {
-  content: "\f02b"; }
-
-/* line 45, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-tags:before {
-  content: "\f02c"; }
-
-/* line 46, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-book:before {
-  content: "\f02d"; }
-
-/* line 47, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-bookmark:before {
-  content: "\f02e"; }
-
-/* line 48, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-print:before {
-  content: "\f02f"; }
-
-/* line 49, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-camera:before {
-  content: "\f030"; }
-
-/* line 50, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-font:before {
-  content: "\f031"; }
-
-/* line 51, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-bold:before {
-  content: "\f032"; }
-
-/* line 52, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-italic:before {
-  content: "\f033"; }
-
-/* line 53, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-text-height:before {
-  content: "\f034"; }
-
-/* line 54, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-text-width:before {
-  content: "\f035"; }
-
-/* line 55, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-align-left:before {
-  content: "\f036"; }
-
-/* line 56, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-align-center:before {
-  content: "\f037"; }
-
-/* line 57, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-align-right:before {
-  content: "\f038"; }
-
-/* line 58, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-align-justify:before {
-  content: "\f039"; }
-
-/* line 59, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-list:before {
-  content: "\f03a"; }
-
-/* line 60, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-dedent:before, .fa-outdent:before {
-  content: "\f03b"; }
-
-/* line 61, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-indent:before {
-  content: "\f03c"; }
-
-/* line 62, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-video-camera:before {
-  content: "\f03d"; }
-
-/* line 63, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-photo:before, .fa-image:before, .fa-picture-o:before {
-  content: "\f03e"; }
-
-/* line 64, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-pencil:before {
-  content: "\f040"; }
-
-/* line 65, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-map-marker:before {
-  content: "\f041"; }
-
-/* line 66, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-adjust:before {
-  content: "\f042"; }
-
-/* line 67, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-tint:before {
-  content: "\f043"; }
-
-/* line 68, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-edit:before, .fa-pencil-square-o:before {
-  content: "\f044"; }
-
-/* line 69, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-share-square-o:before {
-  content: "\f045"; }
-
-/* line 70, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-check-square-o:before {
-  content: "\f046"; }
-
-/* line 71, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-arrows:before {
-  content: "\f047"; }
-
-/* line 72, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-step-backward:before {
-  content: "\f048"; }
-
-/* line 73, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-fast-backward:before {
-  content: "\f049"; }
-
-/* line 74, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-backward:before {
-  content: "\f04a"; }
-
-/* line 75, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-play:before {
-  content: "\f04b"; }
-
-/* line 76, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-pause:before {
-  content: "\f04c"; }
-
-/* line 77, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-stop:before {
-  content: "\f04d"; }
-
-/* line 78, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-forward:before {
-  content: "\f04e"; }
-
-/* line 79, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-fast-forward:before {
-  content: "\f050"; }
-
-/* line 80, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-step-forward:before {
-  content: "\f051"; }
-
-/* line 81, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-eject:before {
-  content: "\f052"; }
-
-/* line 82, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-chevron-left:before {
-  content: "\f053"; }
-
-/* line 83, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-chevron-right:before {
-  content: "\f054"; }
-
-/* line 84, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-plus-circle:before {
-  content: "\f055"; }
-
-/* line 85, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-minus-circle:before {
-  content: "\f056"; }
-
-/* line 86, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-times-circle:before, .bootbox-close-button:before, .modal-header .close .icon:before {
-  content: "\f057"; }
-
-/* line 87, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-check-circle:before {
-  content: "\f058"; }
-
-/* line 88, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-question-circle:before {
-  content: "\f059"; }
-
-/* line 89, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-info-circle:before {
-  content: "\f05a"; }
-
-/* line 90, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-crosshairs:before {
-  content: "\f05b"; }
-
-/* line 91, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-times-circle-o:before {
-  content: "\f05c"; }
-
-/* line 92, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-check-circle-o:before {
-  content: "\f05d"; }
-
-/* line 93, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-ban:before {
-  content: "\f05e"; }
-
-/* line 94, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-arrow-left:before {
-  content: "\f060"; }
-
-/* line 95, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-arrow-right:before {
-  content: "\f061"; }
-
-/* line 96, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-arrow-up:before {
-  content: "\f062"; }
-
-/* line 97, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-arrow-down:before {
-  content: "\f063"; }
-
-/* line 98, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-mail-forward:before, .fa-share:before {
-  content: "\f064"; }
-
-/* line 99, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-expand:before {
-  content: "\f065"; }
-
-/* line 100, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-compress:before {
-  content: "\f066"; }
-
-/* line 101, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-plus:before {
-  content: "\f067"; }
-
-/* line 102, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-minus:before {
-  content: "\f068"; }
-
-/* line 103, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-asterisk:before {
-  content: "\f069"; }
-
-/* line 104, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-exclamation-circle:before {
-  content: "\f06a"; }
-
-/* line 105, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-gift:before {
-  content: "\f06b"; }
-
-/* line 106, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-leaf:before {
-  content: "\f06c"; }
-
-/* line 107, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-fire:before {
-  content: "\f06d"; }
-
-/* line 108, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-eye:before {
-  content: "\f06e"; }
-
-/* line 109, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-eye-slash:before {
-  content: "\f070"; }
-
-/* line 110, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-warning:before, .fa-exclamation-triangle:before {
-  content: "\f071"; }
-
-/* line 111, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-plane:before {
-  content: "\f072"; }
-
-/* line 112, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-calendar:before {
-  content: "\f073"; }
-
-/* line 113, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-random:before {
-  content: "\f074"; }
-
-/* line 114, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-comment:before {
-  content: "\f075"; }
-
-/* line 115, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-magnet:before {
-  content: "\f076"; }
-
-/* line 116, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-chevron-up:before {
-  content: "\f077"; }
-
-/* line 117, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-chevron-down:before {
-  content: "\f078"; }
-
-/* line 118, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-retweet:before {
-  content: "\f079"; }
-
-/* line 119, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-shopping-cart:before {
-  content: "\f07a"; }
-
-/* line 120, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-folder:before {
-  content: "\f07b"; }
-
-/* line 121, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-folder-open:before {
-  content: "\f07c"; }
-
-/* line 122, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-arrows-v:before {
-  content: "\f07d"; }
-
-/* line 123, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-arrows-h:before {
-  content: "\f07e"; }
-
-/* line 124, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-bar-chart-o:before, .fa-bar-chart:before {
-  content: "\f080"; }
-
-/* line 125, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-twitter-square:before {
-  content: "\f081"; }
-
-/* line 126, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-facebook-square:before {
-  content: "\f082"; }
-
-/* line 127, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-camera-retro:before {
-  content: "\f083"; }
-
-/* line 128, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-key:before {
-  content: "\f084"; }
-
-/* line 129, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-gears:before, .fa-cogs:before {
-  content: "\f085"; }
-
-/* line 130, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-comments:before {
-  content: "\f086"; }
-
-/* line 131, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-thumbs-o-up:before {
-  content: "\f087"; }
-
-/* line 132, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-thumbs-o-down:before {
-  content: "\f088"; }
-
-/* line 133, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-star-half:before {
-  content: "\f089"; }
-
-/* line 134, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-heart-o:before {
-  content: "\f08a"; }
-
-/* line 135, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-sign-out:before {
-  content: "\f08b"; }
-
-/* line 136, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-linkedin-square:before {
-  content: "\f08c"; }
-
-/* line 137, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-thumb-tack:before {
-  content: "\f08d"; }
-
-/* line 138, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-external-link:before {
-  content: "\f08e"; }
-
-/* line 139, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-sign-in:before {
-  content: "\f090"; }
-
-/* line 140, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-trophy:before {
-  content: "\f091"; }
-
-/* line 141, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-github-square:before {
-  content: "\f092"; }
-
-/* line 142, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-upload:before {
-  content: "\f093"; }
-
-/* line 143, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-lemon-o:before {
-  content: "\f094"; }
-
-/* line 144, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-phone:before {
-  content: "\f095"; }
-
-/* line 145, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-square-o:before {
-  content: "\f096"; }
-
-/* line 146, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-bookmark-o:before {
-  content: "\f097"; }
-
-/* line 147, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-phone-square:before {
-  content: "\f098"; }
-
-/* line 148, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-twitter:before, .icon.twitter:before {
-  content: "\f099"; }
-
-/* line 149, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-facebook:before, .icon.facebook:before {
-  content: "\f09a"; }
-
-/* line 150, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-github:before {
-  content: "\f09b"; }
-
-/* line 151, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-unlock:before {
-  content: "\f09c"; }
-
-/* line 152, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-credit-card:before {
-  content: "\f09d"; }
-
-/* line 153, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-rss:before {
-  content: "\f09e"; }
-
-/* line 154, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-hdd-o:before {
-  content: "\f0a0"; }
-
-/* line 155, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-bullhorn:before {
-  content: "\f0a1"; }
-
-/* line 156, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-bell:before {
-  content: "\f0f3"; }
-
-/* line 157, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-certificate:before {
-  content: "\f0a3"; }
-
-/* line 158, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-hand-o-right:before {
-  content: "\f0a4"; }
-
-/* line 159, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-hand-o-left:before {
-  content: "\f0a5"; }
-
-/* line 160, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-hand-o-up:before {
-  content: "\f0a6"; }
-
-/* line 161, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-hand-o-down:before {
-  content: "\f0a7"; }
-
-/* line 162, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-arrow-circle-left:before {
-  content: "\f0a8"; }
-
-/* line 163, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-arrow-circle-right:before {
-  content: "\f0a9"; }
-
-/* line 164, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-arrow-circle-up:before {
-  content: "\f0aa"; }
-
-/* line 165, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-arrow-circle-down:before {
-  content: "\f0ab"; }
-
-/* line 166, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-globe:before {
-  content: "\f0ac"; }
-
-/* line 167, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-wrench:before {
-  content: "\f0ad"; }
-
-/* line 168, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-tasks:before {
-  content: "\f0ae"; }
-
-/* line 169, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-filter:before {
-  content: "\f0b0"; }
-
-/* line 170, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-briefcase:before {
-  content: "\f0b1"; }
-
-/* line 171, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-arrows-alt:before {
-  content: "\f0b2"; }
-
-/* line 172, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-group:before, .icon.clients:before, .fa-users:before {
-  content: "\f0c0"; }
-
-/* line 173, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-chain:before, .fa-link:before {
-  content: "\f0c1"; }
-
-/* line 174, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-cloud:before {
-  content: "\f0c2"; }
-
-/* line 175, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-flask:before {
-  content: "\f0c3"; }
-
-/* line 176, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-cut:before, .fa-scissors:before {
-  content: "\f0c4"; }
-
-/* line 177, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-copy:before, .fa-files-o:before {
-  content: "\f0c5"; }
-
-/* line 178, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-paperclip:before {
-  content: "\f0c6"; }
-
-/* line 179, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-save:before, .fa-floppy-o:before {
-  content: "\f0c7"; }
-
-/* line 180, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-square:before {
-  content: "\f0c8"; }
-
-/* line 181, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
-  content: "\f0c9"; }
-
-/* line 182, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-list-ul:before {
-  content: "\f0ca"; }
-
-/* line 183, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-list-ol:before {
-  content: "\f0cb"; }
-
-/* line 184, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-strikethrough:before {
-  content: "\f0cc"; }
-
-/* line 185, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-underline:before {
-  content: "\f0cd"; }
-
-/* line 186, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-table:before {
-  content: "\f0ce"; }
-
-/* line 187, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-magic:before {
-  content: "\f0d0"; }
-
-/* line 188, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-truck:before {
-  content: "\f0d1"; }
-
-/* line 189, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-pinterest:before {
-  content: "\f0d2"; }
-
-/* line 190, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-pinterest-square:before {
-  content: "\f0d3"; }
-
-/* line 191, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-google-plus-square:before {
-  content: "\f0d4"; }
-
-/* line 192, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-google-plus:before {
-  content: "\f0d5"; }
-
-/* line 193, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-money:before {
-  content: "\f0d6"; }
-
-/* line 194, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-caret-down:before {
-  content: "\f0d7"; }
-
-/* line 195, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-caret-up:before {
-  content: "\f0d8"; }
-
-/* line 196, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-caret-left:before {
-  content: "\f0d9"; }
-
-/* line 197, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-caret-right:before, .icon.cta:before, .icon.case-study-cta:before {
-  content: "\f0da"; }
-
-/* line 198, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-columns:before {
-  content: "\f0db"; }
-
-/* line 199, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-unsorted:before, .fa-sort:before {
-  content: "\f0dc"; }
-
-/* line 200, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-sort-down:before, .fa-sort-desc:before {
-  content: "\f0dd"; }
-
-/* line 201, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-sort-up:before, .fa-sort-asc:before {
-  content: "\f0de"; }
-
-/* line 202, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-envelope:before {
-  content: "\f0e0"; }
-
-/* line 203, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-linkedin:before, .icon.github:before, .icon.linkedin:before {
-  content: "\f0e1"; }
-
-/* line 204, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-rotate-left:before, .fa-undo:before {
-  content: "\f0e2"; }
-
-/* line 205, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-legal:before, .fa-gavel:before {
-  content: "\f0e3"; }
-
-/* line 206, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-dashboard:before, .fa-tachometer:before {
-  content: "\f0e4"; }
-
-/* line 207, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-comment-o:before {
-  content: "\f0e5"; }
-
-/* line 208, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-comments-o:before {
-  content: "\f0e6"; }
-
-/* line 209, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-flash:before, .fa-bolt:before {
-  content: "\f0e7"; }
-
-/* line 210, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-sitemap:before {
-  content: "\f0e8"; }
-
-/* line 211, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-umbrella:before {
-  content: "\f0e9"; }
-
-/* line 212, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-paste:before, .fa-clipboard:before {
-  content: "\f0ea"; }
-
-/* line 213, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-lightbulb-o:before, .icon.services:before {
-  content: "\f0eb"; }
-
-/* line 214, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-exchange:before {
-  content: "\f0ec"; }
-
-/* line 215, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-cloud-download:before {
-  content: "\f0ed"; }
-
-/* line 216, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-cloud-upload:before {
-  content: "\f0ee"; }
-
-/* line 217, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-user-md:before {
-  content: "\f0f0"; }
-
-/* line 218, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-stethoscope:before {
-  content: "\f0f1"; }
-
-/* line 219, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-suitcase:before {
-  content: "\f0f2"; }
-
-/* line 220, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-bell-o:before {
-  content: "\f0a2"; }
-
-/* line 221, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-coffee:before {
-  content: "\f0f4"; }
-
-/* line 222, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-cutlery:before {
-  content: "\f0f5"; }
-
-/* line 223, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-file-text-o:before {
-  content: "\f0f6"; }
-
-/* line 224, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-building-o:before {
-  content: "\f0f7"; }
-
-/* line 225, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-hospital-o:before {
-  content: "\f0f8"; }
-
-/* line 226, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-ambulance:before {
-  content: "\f0f9"; }
-
-/* line 227, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-medkit:before {
-  content: "\f0fa"; }
-
-/* line 228, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-fighter-jet:before {
-  content: "\f0fb"; }
-
-/* line 229, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-beer:before {
-  content: "\f0fc"; }
-
-/* line 230, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-h-square:before {
-  content: "\f0fd"; }
-
-/* line 231, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-plus-square:before {
-  content: "\f0fe"; }
-
-/* line 232, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-angle-double-left:before {
-  content: "\f100"; }
-
-/* line 233, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-angle-double-right:before {
-  content: "\f101"; }
-
-/* line 234, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-angle-double-up:before {
-  content: "\f102"; }
-
-/* line 235, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-angle-double-down:before {
-  content: "\f103"; }
-
-/* line 236, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-angle-left:before {
-  content: "\f104"; }
-
-/* line 237, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-angle-right:before {
-  content: "\f105"; }
-
-/* line 238, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-angle-up:before {
-  content: "\f106"; }
-
-/* line 239, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-angle-down:before {
-  content: "\f107"; }
-
-/* line 240, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-desktop:before {
-  content: "\f108"; }
-
-/* line 241, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-laptop:before {
-  content: "\f109"; }
-
-/* line 242, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-tablet:before {
-  content: "\f10a"; }
-
-/* line 243, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-mobile-phone:before, .fa-mobile:before {
-  content: "\f10b"; }
-
-/* line 244, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-circle-o:before {
-  content: "\f10c"; }
-
-/* line 245, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-quote-left:before {
-  content: "\f10d"; }
-
-/* line 246, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-quote-right:before {
-  content: "\f10e"; }
-
-/* line 247, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-spinner:before {
-  content: "\f110"; }
-
-/* line 248, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-circle:before {
-  content: "\f111"; }
-
-/* line 249, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-mail-reply:before, .fa-reply:before {
-  content: "\f112"; }
-
-/* line 250, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-github-alt:before {
-  content: "\f113"; }
-
-/* line 251, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-folder-o:before {
-  content: "\f114"; }
-
-/* line 252, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-folder-open-o:before {
-  content: "\f115"; }
-
-/* line 253, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-smile-o:before {
-  content: "\f118"; }
-
-/* line 254, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-frown-o:before {
-  content: "\f119"; }
-
-/* line 255, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-meh-o:before {
-  content: "\f11a"; }
-
-/* line 256, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-gamepad:before {
-  content: "\f11b"; }
-
-/* line 257, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-keyboard-o:before {
-  content: "\f11c"; }
-
-/* line 258, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-flag-o:before {
-  content: "\f11d"; }
-
-/* line 259, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-flag-checkered:before {
-  content: "\f11e"; }
-
-/* line 260, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-terminal:before {
-  content: "\f120"; }
-
-/* line 261, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-code:before {
-  content: "\f121"; }
-
-/* line 262, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-mail-reply-all:before, .fa-reply-all:before {
-  content: "\f122"; }
-
-/* line 263, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-star-half-empty:before, .fa-star-half-full:before, .fa-star-half-o:before {
-  content: "\f123"; }
-
-/* line 264, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-location-arrow:before {
-  content: "\f124"; }
-
-/* line 265, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-crop:before {
-  content: "\f125"; }
-
-/* line 266, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-code-fork:before {
-  content: "\f126"; }
-
-/* line 267, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-unlink:before, .fa-chain-broken:before {
-  content: "\f127"; }
-
-/* line 268, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-question:before {
-  content: "\f128"; }
-
-/* line 269, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-info:before {
-  content: "\f129"; }
-
-/* line 270, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-exclamation:before {
-  content: "\f12a"; }
-
-/* line 271, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-superscript:before {
-  content: "\f12b"; }
-
-/* line 272, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-subscript:before {
-  content: "\f12c"; }
-
-/* line 273, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-eraser:before {
-  content: "\f12d"; }
-
-/* line 274, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-puzzle-piece:before {
-  content: "\f12e"; }
-
-/* line 275, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-microphone:before {
-  content: "\f130"; }
-
-/* line 276, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-microphone-slash:before {
-  content: "\f131"; }
-
-/* line 277, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-shield:before {
-  content: "\f132"; }
-
-/* line 278, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-calendar-o:before {
-  content: "\f133"; }
-
-/* line 279, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-fire-extinguisher:before {
-  content: "\f134"; }
-
-/* line 280, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-rocket:before {
-  content: "\f135"; }
-
-/* line 281, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-maxcdn:before {
-  content: "\f136"; }
-
-/* line 282, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-chevron-circle-left:before {
-  content: "\f137"; }
-
-/* line 283, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-chevron-circle-right:before {
-  content: "\f138"; }
-
-/* line 284, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-chevron-circle-up:before {
-  content: "\f139"; }
-
-/* line 285, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-chevron-circle-down:before {
-  content: "\f13a"; }
-
-/* line 286, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-html5:before {
-  content: "\f13b"; }
-
-/* line 287, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-css3:before {
-  content: "\f13c"; }
-
-/* line 288, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-anchor:before {
-  content: "\f13d"; }
-
-/* line 289, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-unlock-alt:before {
-  content: "\f13e"; }
-
-/* line 290, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-bullseye:before {
-  content: "\f140"; }
-
-/* line 291, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-ellipsis-h:before {
-  content: "\f141"; }
-
-/* line 292, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-ellipsis-v:before {
-  content: "\f142"; }
-
-/* line 293, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-rss-square:before {
-  content: "\f143"; }
-
-/* line 294, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-play-circle:before {
-  content: "\f144"; }
-
-/* line 295, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-ticket:before {
-  content: "\f145"; }
-
-/* line 296, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-minus-square:before {
-  content: "\f146"; }
-
-/* line 297, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-minus-square-o:before {
-  content: "\f147"; }
-
-/* line 298, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-level-up:before {
-  content: "\f148"; }
-
-/* line 299, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-level-down:before {
-  content: "\f149"; }
-
-/* line 300, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-check-square:before {
-  content: "\f14a"; }
-
-/* line 301, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-pencil-square:before {
-  content: "\f14b"; }
-
-/* line 302, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-external-link-square:before {
-  content: "\f14c"; }
-
-/* line 303, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-share-square:before {
-  content: "\f14d"; }
-
-/* line 304, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-compass:before {
-  content: "\f14e"; }
-
-/* line 305, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-toggle-down:before, .fa-caret-square-o-down:before {
-  content: "\f150"; }
-
-/* line 306, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-toggle-up:before, .fa-caret-square-o-up:before, .icon.top:before {
-  content: "\f151"; }
-
-/* line 307, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-toggle-right:before, .fa-caret-square-o-right:before {
-  content: "\f152"; }
-
-/* line 308, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-euro:before, .fa-eur:before {
-  content: "\f153"; }
-
-/* line 309, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-gbp:before {
-  content: "\f154"; }
-
-/* line 310, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-dollar:before, .fa-usd:before {
-  content: "\f155"; }
-
-/* line 311, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-rupee:before, .fa-inr:before {
-  content: "\f156"; }
-
-/* line 312, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-cny:before, .fa-rmb:before, .fa-yen:before, .fa-jpy:before {
-  content: "\f157"; }
-
-/* line 313, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-ruble:before, .fa-rouble:before, .fa-rub:before {
-  content: "\f158"; }
-
-/* line 314, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-won:before, .fa-krw:before {
-  content: "\f159"; }
-
-/* line 315, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-bitcoin:before, .fa-btc:before {
-  content: "\f15a"; }
-
-/* line 316, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-file:before {
-  content: "\f15b"; }
-
-/* line 317, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-file-text:before {
-  content: "\f15c"; }
-
-/* line 318, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-sort-alpha-asc:before {
-  content: "\f15d"; }
-
-/* line 319, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-sort-alpha-desc:before {
-  content: "\f15e"; }
-
-/* line 320, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-sort-amount-asc:before {
-  content: "\f160"; }
-
-/* line 321, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-sort-amount-desc:before {
-  content: "\f161"; }
-
-/* line 322, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-sort-numeric-asc:before {
-  content: "\f162"; }
-
-/* line 323, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-sort-numeric-desc:before {
-  content: "\f163"; }
-
-/* line 324, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-thumbs-up:before {
-  content: "\f164"; }
-
-/* line 325, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-thumbs-down:before {
-  content: "\f165"; }
-
-/* line 326, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-youtube-square:before {
-  content: "\f166"; }
-
-/* line 327, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-youtube:before {
-  content: "\f167"; }
-
-/* line 328, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-xing:before {
-  content: "\f168"; }
-
-/* line 329, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-xing-square:before {
-  content: "\f169"; }
-
-/* line 330, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-youtube-play:before {
-  content: "\f16a"; }
-
-/* line 331, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-dropbox:before {
-  content: "\f16b"; }
-
-/* line 332, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-stack-overflow:before {
-  content: "\f16c"; }
-
-/* line 333, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-instagram:before {
-  content: "\f16d"; }
-
-/* line 334, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-flickr:before {
-  content: "\f16e"; }
-
-/* line 335, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-adn:before {
-  content: "\f170"; }
-
-/* line 336, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-bitbucket:before {
-  content: "\f171"; }
-
-/* line 337, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-bitbucket-square:before {
-  content: "\f172"; }
-
-/* line 338, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-tumblr:before {
-  content: "\f173"; }
-
-/* line 339, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-tumblr-square:before {
-  content: "\f174"; }
-
-/* line 340, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-long-arrow-down:before {
-  content: "\f175"; }
-
-/* line 341, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-long-arrow-up:before {
-  content: "\f176"; }
-
-/* line 342, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-long-arrow-left:before {
-  content: "\f177"; }
-
-/* line 343, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-long-arrow-right:before {
-  content: "\f178"; }
-
-/* line 344, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-apple:before {
-  content: "\f179"; }
-
-/* line 345, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-windows:before {
-  content: "\f17a"; }
-
-/* line 346, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-android:before {
-  content: "\f17b"; }
-
-/* line 347, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-linux:before {
-  content: "\f17c"; }
-
-/* line 348, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-dribbble:before {
-  content: "\f17d"; }
-
-/* line 349, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-skype:before {
-  content: "\f17e"; }
-
-/* line 350, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-foursquare:before {
-  content: "\f180"; }
-
-/* line 351, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-trello:before {
-  content: "\f181"; }
-
-/* line 352, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-female:before {
-  content: "\f182"; }
-
-/* line 353, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-male:before {
-  content: "\f183"; }
-
-/* line 354, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-gittip:before {
-  content: "\f184"; }
-
-/* line 355, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-sun-o:before {
-  content: "\f185"; }
-
-/* line 356, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-moon-o:before {
-  content: "\f186"; }
-
-/* line 357, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-archive:before {
-  content: "\f187"; }
-
-/* line 358, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-bug:before {
-  content: "\f188"; }
-
-/* line 359, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-vk:before {
-  content: "\f189"; }
-
-/* line 360, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-weibo:before {
-  content: "\f18a"; }
-
-/* line 361, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-renren:before {
-  content: "\f18b"; }
-
-/* line 362, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-pagelines:before {
-  content: "\f18c"; }
-
-/* line 363, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-stack-exchange:before {
-  content: "\f18d"; }
-
-/* line 364, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-arrow-circle-o-right:before {
-  content: "\f18e"; }
-
-/* line 365, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-arrow-circle-o-left:before {
-  content: "\f190"; }
-
-/* line 366, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-toggle-left:before, .fa-caret-square-o-left:before {
-  content: "\f191"; }
-
-/* line 367, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-dot-circle-o:before {
-  content: "\f192"; }
-
-/* line 368, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-wheelchair:before {
-  content: "\f193"; }
-
-/* line 369, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-vimeo-square:before {
-  content: "\f194"; }
-
-/* line 370, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-turkish-lira:before, .fa-try:before {
-  content: "\f195"; }
-
-/* line 371, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-plus-square-o:before {
-  content: "\f196"; }
-
-/* line 372, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-space-shuttle:before {
-  content: "\f197"; }
-
-/* line 373, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-slack:before {
-  content: "\f198"; }
-
-/* line 374, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-envelope-square:before {
-  content: "\f199"; }
-
-/* line 375, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-wordpress:before {
-  content: "\f19a"; }
-
-/* line 376, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-openid:before {
-  content: "\f19b"; }
-
-/* line 377, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-institution:before, .fa-bank:before, .fa-university:before {
-  content: "\f19c"; }
-
-/* line 378, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-mortar-board:before, .fa-graduation-cap:before {
-  content: "\f19d"; }
-
-/* line 379, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-yahoo:before {
-  content: "\f19e"; }
-
-/* line 380, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-google:before {
-  content: "\f1a0"; }
-
-/* line 381, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-reddit:before {
-  content: "\f1a1"; }
-
-/* line 382, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-reddit-square:before {
-  content: "\f1a2"; }
-
-/* line 383, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-stumbleupon-circle:before {
-  content: "\f1a3"; }
-
-/* line 384, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-stumbleupon:before {
-  content: "\f1a4"; }
-
-/* line 385, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-delicious:before {
-  content: "\f1a5"; }
-
-/* line 386, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-digg:before {
-  content: "\f1a6"; }
-
-/* line 387, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-pied-piper:before {
-  content: "\f1a7"; }
-
-/* line 388, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-pied-piper-alt:before {
-  content: "\f1a8"; }
-
-/* line 389, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-drupal:before, .icon.drupal:before {
-  content: "\f1a9"; }
-
-/* line 390, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-joomla:before {
-  content: "\f1aa"; }
-
-/* line 391, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-language:before {
-  content: "\f1ab"; }
-
-/* line 392, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-fax:before {
-  content: "\f1ac"; }
-
-/* line 393, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-building:before {
-  content: "\f1ad"; }
-
-/* line 394, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-child:before, .icon.team:before {
-  content: "\f1ae"; }
-
-/* line 395, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-paw:before {
-  content: "\f1b0"; }
-
-/* line 396, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-spoon:before {
-  content: "\f1b1"; }
-
-/* line 397, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-cube:before {
-  content: "\f1b2"; }
-
-/* line 398, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-cubes:before {
-  content: "\f1b3"; }
-
-/* line 399, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-behance:before {
-  content: "\f1b4"; }
-
-/* line 400, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-behance-square:before {
-  content: "\f1b5"; }
-
-/* line 401, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-steam:before {
-  content: "\f1b6"; }
-
-/* line 402, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-steam-square:before {
-  content: "\f1b7"; }
-
-/* line 403, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-recycle:before {
-  content: "\f1b8"; }
-
-/* line 404, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-automobile:before, .fa-car:before {
-  content: "\f1b9"; }
-
-/* line 405, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-cab:before, .fa-taxi:before {
-  content: "\f1ba"; }
-
-/* line 406, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-tree:before {
-  content: "\f1bb"; }
-
-/* line 407, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-spotify:before {
-  content: "\f1bc"; }
-
-/* line 408, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-deviantart:before {
-  content: "\f1bd"; }
-
-/* line 409, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-soundcloud:before {
-  content: "\f1be"; }
-
-/* line 410, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-database:before {
-  content: "\f1c0"; }
-
-/* line 411, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-file-pdf-o:before {
-  content: "\f1c1"; }
-
-/* line 412, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-file-word-o:before {
-  content: "\f1c2"; }
-
-/* line 413, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-file-excel-o:before {
-  content: "\f1c3"; }
-
-/* line 414, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-file-powerpoint-o:before {
-  content: "\f1c4"; }
-
-/* line 415, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-file-photo-o:before, .fa-file-picture-o:before, .fa-file-image-o:before {
-  content: "\f1c5"; }
-
-/* line 416, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-file-zip-o:before, .fa-file-archive-o:before {
-  content: "\f1c6"; }
-
-/* line 417, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-file-sound-o:before, .fa-file-audio-o:before {
-  content: "\f1c7"; }
-
-/* line 418, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-file-movie-o:before, .fa-file-video-o:before {
-  content: "\f1c8"; }
-
-/* line 419, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-file-code-o:before {
-  content: "\f1c9"; }
-
-/* line 420, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-vine:before {
-  content: "\f1ca"; }
-
-/* line 421, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-codepen:before {
-  content: "\f1cb"; }
-
-/* line 422, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-jsfiddle:before {
-  content: "\f1cc"; }
-
-/* line 423, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-life-bouy:before, .fa-life-buoy:before, .fa-life-saver:before, .fa-support:before, .fa-life-ring:before {
-  content: "\f1cd"; }
-
-/* line 424, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-circle-o-notch:before {
-  content: "\f1ce"; }
-
-/* line 425, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-ra:before, .fa-rebel:before {
-  content: "\f1d0"; }
-
-/* line 426, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-ge:before, .fa-empire:before {
-  content: "\f1d1"; }
-
-/* line 427, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-git-square:before {
-  content: "\f1d2"; }
-
-/* line 428, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-git:before {
-  content: "\f1d3"; }
-
-/* line 429, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-hacker-news:before {
-  content: "\f1d4"; }
-
-/* line 430, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-tencent-weibo:before {
-  content: "\f1d5"; }
-
-/* line 431, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-qq:before {
-  content: "\f1d6"; }
-
-/* line 432, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-wechat:before, .fa-weixin:before {
-  content: "\f1d7"; }
-
-/* line 433, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-send:before, .fa-paper-plane:before {
-  content: "\f1d8"; }
-
-/* line 434, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-send-o:before, .fa-paper-plane-o:before {
-  content: "\f1d9"; }
-
-/* line 435, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-history:before {
-  content: "\f1da"; }
-
-/* line 436, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-circle-thin:before {
-  content: "\f1db"; }
-
-/* line 437, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-header:before {
-  content: "\f1dc"; }
-
-/* line 438, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-paragraph:before {
-  content: "\f1dd"; }
-
-/* line 439, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-sliders:before {
-  content: "\f1de"; }
-
-/* line 440, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-share-alt:before {
-  content: "\f1e0"; }
-
-/* line 441, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-share-alt-square:before {
-  content: "\f1e1"; }
-
-/* line 442, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-bomb:before {
-  content: "\f1e2"; }
-
-/* line 443, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-soccer-ball-o:before, .fa-futbol-o:before {
-  content: "\f1e3"; }
-
-/* line 444, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-tty:before {
-  content: "\f1e4"; }
-
-/* line 445, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-binoculars:before {
-  content: "\f1e5"; }
-
-/* line 446, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-plug:before {
-  content: "\f1e6"; }
-
-/* line 447, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-slideshare:before {
-  content: "\f1e7"; }
-
-/* line 448, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-twitch:before {
-  content: "\f1e8"; }
-
-/* line 449, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-yelp:before {
-  content: "\f1e9"; }
-
-/* line 450, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-newspaper-o:before {
-  content: "\f1ea"; }
-
-/* line 451, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-wifi:before {
-  content: "\f1eb"; }
-
-/* line 452, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-calculator:before {
-  content: "\f1ec"; }
-
-/* line 453, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-paypal:before {
-  content: "\f1ed"; }
-
-/* line 454, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-google-wallet:before {
-  content: "\f1ee"; }
-
-/* line 455, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-cc-visa:before {
-  content: "\f1f0"; }
-
-/* line 456, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-cc-mastercard:before {
-  content: "\f1f1"; }
-
-/* line 457, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-cc-discover:before {
-  content: "\f1f2"; }
-
-/* line 458, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-cc-amex:before {
-  content: "\f1f3"; }
-
-/* line 459, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-cc-paypal:before {
-  content: "\f1f4"; }
-
-/* line 460, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-cc-stripe:before {
-  content: "\f1f5"; }
-
-/* line 461, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-bell-slash:before {
-  content: "\f1f6"; }
-
-/* line 462, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-bell-slash-o:before {
-  content: "\f1f7"; }
-
-/* line 463, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-trash:before {
-  content: "\f1f8"; }
-
-/* line 464, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-copyright:before {
-  content: "\f1f9"; }
-
-/* line 465, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-at:before {
-  content: "\f1fa"; }
-
-/* line 466, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-eyedropper:before {
-  content: "\f1fb"; }
-
-/* line 467, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-paint-brush:before {
-  content: "\f1fc"; }
-
-/* line 468, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-birthday-cake:before {
-  content: "\f1fd"; }
-
-/* line 469, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-area-chart:before {
-  content: "\f1fe"; }
-
-/* line 470, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-pie-chart:before {
-  content: "\f200"; }
-
-/* line 471, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-line-chart:before {
-  content: "\f201"; }
-
-/* line 472, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-lastfm:before {
-  content: "\f202"; }
-
-/* line 473, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-lastfm-square:before {
-  content: "\f203"; }
-
-/* line 474, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-toggle-off:before {
-  content: "\f204"; }
-
-/* line 475, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-toggle-on:before {
-  content: "\f205"; }
-
-/* line 476, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-bicycle:before {
-  content: "\f206"; }
-
-/* line 477, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-bus:before {
-  content: "\f207"; }
-
-/* line 478, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-ioxhost:before {
-  content: "\f208"; }
-
-/* line 479, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-angellist:before {
-  content: "\f209"; }
-
-/* line 480, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-cc:before {
-  content: "\f20a"; }
-
-/* line 481, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-shekel:before, .fa-sheqel:before, .fa-ils:before {
-  content: "\f20b"; }
-
-/* line 482, /Users/alec/workspace/hipache/static/sass/vendor/fontawesome/scss/icons */
-.fa-meanpath:before {
-  content: "\f20c"; }
-
 @media screen and (min-width: 520px) {
   /* line 18, /Users/alec/workspace/hipache/static/sass/base/breakpoints */
   head {
@@ -7204,7 +5097,7 @@ body:after {
   outline: 0; }
 
 /* line 10, /Users/alec/workspace/hipache/static/sass/base/extendables */
-.element-invisible, .offscreen, .sr-only, .page-home #footer #address .contact-info {
+.element-invisible, .offscreen, .sr-only {
   position: absolute !important;
   width: 1px;
   height: 1px;
@@ -7213,87 +5106,8 @@ body:after {
   /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px); }
 
-/* line 19, /Users/alec/workspace/hipache/static/sass/base/extendables */
-.page-home #lets {
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%); }
-
-/* line 44, /Users/alec/workspace/hipache/static/sass/base/extendables */
-.careers_listing .role .actuator {
-  border: none; 
-  box-shadow: 0 1px 5px rgba(0, 0, 0, .4);}
-
-/* line 57, /Users/alec/workspace/hipache/static/sass/base/extendables */
-.teammember {
-  position: relative;
-  position: relative;
-  position: relative;
-  position: relative;
-  float: left;
-  width: 50%;
-  min-height: 1px;
-  min-height: 1px;
-  min-height: 1px;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-right: 15px;
-  padding-right: 15px;
-  padding-right: 15px; 
-  padding-left: 15px;
-  padding-left: 15px;
-  padding-left: 15px;
-  padding-left: 15px;}
-@media (min-width: 768px) {
-  .teammember {
-    float: left;
-    width: 33.33333%; } }
-@media (min-width: 992px) {
-  .teammember {
-    float: left;
-    width: 25%; } }
-@media (min-width: 1200px) {
-  .teammember {
-    float: left;
-    width: 25%; } }
-
-/* line 64, /Users/alec/workspace/hipache/static/sass/base/extendables */
-.careers_listing .role {
-  position: relative;
-  position: relative;
-  position: relative;
-  position: relative;
-  float: left;
-  width: 100%;
-  min-height: 1px;
-  min-height: 1px;
-  min-height: 1px;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-right: 15px;
-  padding-right: 15px;
-  padding-right: 15px; 
-  padding-left: 15px;
-  padding-left: 15px;
-  padding-left: 15px;
-  padding-left: 15px;}
-@media (min-width: 768px) {
-  .careers_listing .role {
-    float: left;
-    width: 50%; } }
-@media (min-width: 992px) {
-  .careers_listing .role {
-    float: left;
-    width: 50%; } }
-@media (min-width: 1200px) {
-  .careers_listing .role {
-    float: left;
-    width: 50%; } }
-
 /* line 71, /Users/alec/workspace/hipache/static/sass/base/extendables */
-.image-full-width img, #support .support-plan .media img, .page-kalabox .cel img {
+.image-full-width img, .page-kalabox .cel img {
   width: 100%;
   height: auto; }
 
@@ -7301,17 +5115,6 @@ body:after {
 .image-full-width {
   display: block;
   overflow-y: hidden; }
-
-/* line 84, /Users/alec/workspace/hipache/static/sass/base/extendables */
-.careers_listing .drawer .qualifications, .careers_listing .drawer .extra, .post .drawer .qualifications, .post .drawer .responsibilities {
-  position: relative;
-  min-height: 1px;
-  padding-right: 15px; 
-  padding-left: 15px;}
-@media (min-width: 768px) {
-  .careers_listing .drawer .qualifications, .careers_listing .drawer .extra, .post .drawer .qualifications, .post .drawer .responsibilities {
-    float: left;
-    width: 50%; } }
 
 /* line 88, /Users/alec/workspace/hipache/static/sass/base/extendables */
 .sr-only {
@@ -7360,60 +5163,6 @@ body:after {
 @media screen and (max-width: 768px) {
   .page-kalabox .btn-primary {
     font-size: 20px; } }
-
-/* line 164, /Users/alec/workspace/hipache/static/sass/base/extendables */
-#onpoint ul, #offpoint > ul:first-of-type, .intro ul {
-  padding: 0; 
-  margin-top: 1em;
-  list-style: none;
-  border-top: 1px #3f96d6 solid;}
-/* line 170, /Users/alec/workspace/hipache/static/sass/base/extendables */
-#onpoint ul li, #offpoint > ul:first-of-type li, .intro ul li {
-  float: left;
-  width: 49%;
-  padding: .5em;
-  padding: .75em .5em;
-  margin-bottom: .075em;
-  margin-left: .25em;
-  font-family: DinNextRounded;
-  font-size: 1.125em; 
-  font-weight: 300;
-  line-height: 1.2;
-  border-bottom: 1px #3f96d6 solid;}
-/* line 183, /Users/alec/workspace/hipache/static/sass/base/extendables */
-#onpoint ul li:nth-child(odd), #offpoint > ul:first-of-type li:nth-child(odd), .intro ul li:nth-child(odd) {
-  margin-left: 0; }
-@media screen and (max-width: 768px) {
-  #onpoint ul li, #offpoint > ul:first-of-type li, .intro ul li {
-    width: 100%; } }
-
-/* line 193, /Users/alec/workspace/hipache/static/sass/base/extendables */
-.case-study .content-wrapper #cs-quote blockquote, #client-testimonials blockquote {
-  padding-top: 15px;
-  margin-bottom: 0;
-  border: none; }
-/* line 199, /Users/alec/workspace/hipache/static/sass/base/extendables */
-.case-study .content-wrapper #cs-quote blockquote p, #client-testimonials blockquote p {
-  padding: .5em;
-  font-family: DinNextRounded; 
-  color: #164466;
-  background-color: #ecca34;}
-/* line 208, /Users/alec/workspace/hipache/static/sass/base/extendables */
-.case-study .content-wrapper #cs-quote blockquote footer:before, #client-testimonials blockquote footer:before {
-  content: ''; }
-/* line 216, /Users/alec/workspace/hipache/static/sass/base/extendables */
-.case-study .content-wrapper #cs-quote blockquote footer cite, #client-testimonials blockquote footer cite {
-  margin-top: 41px;
-  margin-left: 15px;
-  color: #333; }
-
-/* line 266, /Users/alec/workspace/hipache/static/sass/base/extendables */
-.modal .modal-dialog {
-  transition-timing-function: cubic-bezier(.25, .46, .45, .94); }
-
-/* line 299, /Users/alec/workspace/hipache/static/sass/base/extendables */
-.cta, .case-study-cta, .cta h3, .case-study-cta h3, .cta a, .case-study-cta a {
-  transition-timing-function: cubic-bezier(.39, .575, .565, 1); }
 
 @font-face {
   font-family: "DinNextRounded";
@@ -7542,20 +5291,20 @@ h1 {
   line-height: 1; }
 
 /* line 74, /Users/alec/workspace/hipache/static/sass/base/typography */
-.btn-primary, h2, .our-values .value {
+.btn-primary, h2 {
   font-size: 32px; }
 
 /* line 78, /Users/alec/workspace/hipache/static/sass/base/typography */
-h3, .our-values .value {
+h3 {
   font-size: 27px;
   line-height: 1.125; }
 
 /* line 83, /Users/alec/workspace/hipache/static/sass/base/typography */
-h4, .intro p {
+h4 {
   font-size: 21px; }
 
 /* line 87, /Users/alec/workspace/hipache/static/sass/base/typography */
-h5, .teammember .name-title h4 {
+h5 {
   font-size: 18px; }
 
 /* line 109, /Users/alec/workspace/hipache/static/sass/base/typography */
@@ -7616,1981 +5365,195 @@ h5, .teammember .name-title h4 {
   letter-spacing: 2em; 
   content: "\f101";}
 
-/* line 1, /Users/alec/workspace/hipache/static/sass/layouts/global */
+/* line 1, /Users/alec/workspace/hipache/static/sass/layout */
 html {
   height: 100%; }
 
-/* line 5, /Users/alec/workspace/hipache/static/sass/layouts/global */
+/* line 5, /Users/alec/workspace/hipache/static/sass/layout */
 body {
   transition-timing-function: cubic-bezier(.175, .885, .32, 1.275);
   transition-duration: .25s; 
   transition-property: padding-top;}
 
-/* line 25, /Users/alec/workspace/hipache/static/sass/layouts/global */
+/* line 25, /Users/alec/workspace/hipache/static/sass/layout */
 .cta-wrapper {
   background: #eee; }
-
-/* line 12, /Users/alec/workspace/hipache/static/sass/layouts/services */
-#strategy .mobile-controls {
-  display: block;
-  padding-right: 1.5em;
-  padding-bottom: 1.5em; 
-  padding-left: 1em;}
-/* line 14, /Users/alec/workspace/hipache/static/sass/layouts/services */
-#strategy .mobile-controls h3 {
-  padding-bottom: .5em; }
-/* line 22, /Users/alec/workspace/hipache/static/sass/layouts/services */
-#strategy .controls {
-  display: none; }
-@media screen and (min-width: 768px) {
-
-  /* line 34, /Users/alec/workspace/hipache/static/sass/layouts/services */
-  #strategy .mobile-controls {
-    display: none; }
-
-  /* line 38, /Users/alec/workspace/hipache/static/sass/layouts/services */
-  #strategy .controls {
-    display: block; }
-  }
-
-/* line 47, /Users/alec/workspace/hipache/static/sass/layouts/services */
-.our-services .intro {
-  margin-top: 0; }
-/* line 50, /Users/alec/workspace/hipache/static/sass/layouts/services */
-.our-services .intro p {
-  margin-bottom: 2em; }
-@media screen and (max-width: 768px) {
-  /* line 55, /Users/alec/workspace/hipache/static/sass/layouts/services */
-  .our-services .intro p {
-    width: 100%; }
-  }
-
-/* line 2, /Users/alec/workspace/hipache/static/sass/layouts/clients_listing */
-.our-clients {
-  padding: 1em 0 2em; 
-  margin-top: 2em;
-  background: #eee;}
-
-/* line 5, /Users/alec/workspace/hipache/static/sass/layouts/careers_listing */
-.careers_listing > .content-wrapper {
-  margin-bottom: 3em; 
-
-  -webkit-perspective: 800px;
-          perspective: 800px;}
-/* line 10, /Users/alec/workspace/hipache/static/sass/layouts/careers_listing */
-.careers_listing .role {
-  padding: 0 .5em 0 0; }
-/* line 16, /Users/alec/workspace/hipache/static/sass/layouts/careers_listing */
-.careers_listing .role .actuator {
-  display: block;
-  width: 100%;
-  min-height: 155px;
-  padding: 1em; 
-  color: #465a18;}
-/* line 28, /Users/alec/workspace/hipache/static/sass/layouts/careers_listing */
-.careers_listing .role.active .actuator {
-  min-height: 165px; }
-@media screen and (max-width: 768px) {
-  /* line 33, /Users/alec/workspace/hipache/static/sass/layouts/careers_listing */
-  .careers_listing .role.active .actuator p {
-    display: none;
-    visibility: hidden; }
-  }
-/* line 44, /Users/alec/workspace/hipache/static/sass/layouts/careers_listing */
-.careers_listing .role.active, .careers_listing .role:hover {
-  text-decoration: none; }
-/* line 48, /Users/alec/workspace/hipache/static/sass/layouts/careers_listing */
-.careers_listing .role.active .actuator, .careers_listing .role:hover .actuator {
-  color: #fff;
-  text-decoration: none; 
-  background: #94bf32;}
-@media screen and (min-width: 768px) {
-  .careers_listing .role.active .actuator, .careers_listing .role:hover .actuator {
-    background: #94bf32; }
-  /* line 58, /Users/alec/workspace/hipache/static/sass/layouts/careers_listing */
-  .careers_listing .role.active .actuator p, .careers_listing .role:hover .actuator p {
-    display: block; } }
-/* line 70, /Users/alec/workspace/hipache/static/sass/layouts/careers_listing */
-.careers_listing .drawer {
-  position: relative;
-  top: -1.5em;
-  z-index: 2;
-  width: 100%; 
-  clear: both;}
-/* line 79, /Users/alec/workspace/hipache/static/sass/layouts/careers_listing */
-.careers_listing .drawer .content {
-  margin: 0 0 2em 0;
-  background: #eee; }
-/* line 95, /Users/alec/workspace/hipache/static/sass/layouts/careers_listing */
-.careers_listing .drawer .extra ul, .careers_listing .drawer .qualifications ul {
-  padding-left: 0; 
-  list-style: none;}
-/* line 99, /Users/alec/workspace/hipache/static/sass/layouts/careers_listing */
-.careers_listing .drawer .extra li, .careers_listing .drawer .qualifications li {
-  padding-top: .25em;
-  padding-bottom: .25em;
-  border-bottom: 1px #94bf32 solid; }
-/* line 106, /Users/alec/workspace/hipache/static/sass/layouts/careers_listing */
-.careers_listing .drawer .btn_primary {
-  display: block;
-  width: 100%;
-  margin-top: 2em; 
-  clear: both;}
-
-/* line 1, /Users/alec/workspace/hipache/static/sass/layouts/team_listing */
-#team_listing {
-  position: relative; }
-@media screen and (min-width: 768px) {
-  #team_listing {
-    margin-top: 3em; } }
-
-/* line 9, /Users/alec/workspace/hipache/static/sass/layouts/team_listing */
-.teammember {
-  padding-left: 0; 
-  margin-bottom: 2em;
-  margin-left: 0;}
-/* line 22, /Users/alec/workspace/hipache/static/sass/layouts/team_listing */
-.teammember .name-title {
-  min-height: 4.5em; 
-  margin-top: .5em;}
-/* line 28, /Users/alec/workspace/hipache/static/sass/layouts/team_listing */
-.teammember .name-title h4, .teammember .name-title h5 {
-  text-align: center; }
-/* line 32, /Users/alec/workspace/hipache/static/sass/layouts/team_listing */
-.teammember .name-title h5 {
-  font-weight: 300; }
-@media screen and (max-width: 768px) {
-
-  /* line 41, /Users/alec/workspace/hipache/static/sass/layouts/team_listing */
-  .teammember .name-title h4, .teammember .name-title h5 {
-    margin-bottom: 5px; 
-    text-align: left;}
-  }
-/* line 51, /Users/alec/workspace/hipache/static/sass/layouts/team_listing */
-.teammember .photo, .teammember .photo img {
-  width: 140px;
-  height: 140px; }
-@media screen and (min-width: 520px) {
-  .teammember .photo, .teammember .photo img {
-    width: 180px;
-    height: 180px; } }
-@media screen and (min-width: 550px) {
-  .teammember .photo, .teammember .photo img {
-    width: 200px;
-    height: 200px; } }
-@media screen and (min-width: 768px) {
-  .teammember .photo, .teammember .photo img {
-    width: 200px;
-    height: 200px; } }
-/* line 71, /Users/alec/workspace/hipache/static/sass/layouts/team_listing */
-.teammember .photo {
-  border-color: #fff;
-  border-style: solid;
-  border-width: 0;
-  border-radius: 50%; }
-/* line 81, /Users/alec/workspace/hipache/static/sass/layouts/team_listing */
-.teammember .photo img {
-  position: relative; }
-/* line 91, /Users/alec/workspace/hipache/static/sass/layouts/team_listing */
-.teammember:hover .photo {
-  border-width: 6px; }
-/* line 93, /Users/alec/workspace/hipache/static/sass/layouts/team_listing */
-.teammember:hover .photo img {
-  top: -6px; 
-  left: -6px;}
-/* line 100, /Users/alec/workspace/hipache/static/sass/layouts/team_listing */
-.teammember .photo {
-  margin-bottom: 0; 
-  box-shadow: 0 1px 5px rgba(0, 0, 0, .4);}
-@media screen and (min-width: 768px) {
-  .teammember .photo {
-    margin: 0 auto; 
-    overflow: hidden;
-    border-radius: 50%;} }
-/* line 115, /Users/alec/workspace/hipache/static/sass/layouts/team_listing */
-.teammember.active h3 {
-  background: #ecca34;
-  border-radius: .25em; }
-/* line 122, /Users/alec/workspace/hipache/static/sass/layouts/team_listing */
-.teammember a:hover {
-  text-decoration: none; }
-/* line 126, /Users/alec/workspace/hipache/static/sass/layouts/team_listing */
-.teammember .modal-template {
-  display: none; }
-@media screen and (max-width: 768px) {
-  .teammember {
-    margin-bottom: 1em; } }
-
-/* line 1, /Users/alec/workspace/hipache/static/sass/layouts/homepage */
-.page-home, .page-home #homepage-message, .page-home #main, .page-home .lede, .page-home .content-wrapper {
-  position: relative; 
-  width: 100%;
-  height: 100%;}
-
-/* line 7, /Users/alec/workspace/hipache/static/sass/layouts/homepage */
-.page-home {
-  background-repeat: no-repeat;
-  background-position: center center; 
-  background-size: cover;}
-@media (min-width: 768px) {
-  .page-home {
-    background-position: center center; 
-    background-size: cover;} }
-
-/* line 28, /Users/alec/workspace/hipache/static/sass/layouts/homepage */
-.page-home #main {
-  padding-top: 0; }
-/* line 32, /Users/alec/workspace/hipache/static/sass/layouts/homepage */
-.page-home #lets {
-  top: 70%;
-  display: block; 
-  max-width: 900px;
-  padding-right: 1em;
-  padding-left: 1em;
-  margin: 0 auto;
-  text-align: center;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);}
-@media (min-width: 992px) {
-  .page-home #lets {
-    top: 85%;
-    -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%); } }
-/* line 51, /Users/alec/workspace/hipache/static/sass/layouts/homepage */
-.page-home #lets h1 {
-  position: relative;
-  top: -1em;
-  margin-top: 0; 
-  font-size: 2em;
-  font-weight: 500;
-  line-height: 1;
-  color: #fff;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, .65);
-  transition-timing-function: cubic-bezier(.645, .045, .355, 1);
-  transition-duration: .2s;
-  transition-property: -webkit-transform font-size;
-  transition-property:         transform font-size;
-  -webkit-transform: rotateX(0deg);
-          transform: rotateX(0deg);
-  -webkit-transform-origin: center center;
-      -ms-transform-origin: center center;
-          transform-origin: center center;
-
-  -webkit-backface-visibility: visible;
-          backface-visibility: visible;}
-@media (min-width: 992px) {
-  .page-home #lets h1 {
-    top: -2em;
-    font-size: 3.5em;
-    line-height: .875;
-    text-shadow: 3px 3px 12px rgba(0, 0, 0, .5); } }
-/* line 75, /Users/alec/workspace/hipache/static/sass/layouts/homepage */
-.page-home #lets h1.largetype {
-  font-size: 3.5em !important; }
-@media (min-width: 768px) {
-  .page-home #lets h1.largetype {
-    font-size: 5em;
-    line-height: .75; } }
-/* line 83, /Users/alec/workspace/hipache/static/sass/layouts/homepage */
-.page-home #lets h1.flipped {
-  -webkit-transform: rotateX(90deg);
-          transform: rotateX(90deg); }
-/* line 91, /Users/alec/workspace/hipache/static/sass/layouts/homepage */
-.page-home #main-nav ul {
-  padding-top: 1.7em; }
-@media (min-width: 992px) {
-  .page-home #main-nav ul {
-    padding-right: 1.7em !important; } }
-/* line 99, /Users/alec/workspace/hipache/static/sass/layouts/homepage */
-.page-home #main-nav ul li a {
-  padding-top: 1em;
-  padding-bottom: 1em; }
-/* line 103, /Users/alec/workspace/hipache/static/sass/layouts/homepage */
-.page-home #main-nav ul li a:hover {
-  background: rgba(0, 0, 0, .4); }
-/* line 108, /Users/alec/workspace/hipache/static/sass/layouts/homepage */
-.page-home #main-nav ul li:last-child a {
-  padding-right: 1em; }
-/* line 126, /Users/alec/workspace/hipache/static/sass/layouts/homepage */
-.page-home #footer #footer-nav ul.nav li a, .page-home #footer #footer-nav ul.tags li a {
-  padding-bottom: 0;
-  color: #fff; }
-
-/* line 136, /Users/alec/workspace/hipache/static/sass/layouts/homepage */
-.image-attribution {
-  position: fixed;
-  bottom: 0; 
-  left: 1.95em;
-  padding: .25em .5em 0 .5em;
-  font-size: .75em;
-  line-height: 0;
-  color: #999;}
-@media (min-width: 768px) {
-  .image-attribution {
-    right: 0;
-    bottom: 2em;
-    left: auto;
-    background-color: rgba(0, 0, 0, .5); } }
-/* line 153, /Users/alec/workspace/hipache/static/sass/layouts/homepage */
-.image-attribution a {
-  color: #fff;
-  text-decoration: none; }
-/* line 156, /Users/alec/workspace/hipache/static/sass/layouts/homepage */
-.image-attribution a:hover {
-  text-decoration: underline; }
-/* line 161, /Users/alec/workspace/hipache/static/sass/layouts/homepage */
-.image-attribution img {
-  width: 16px; }
-@media (min-width: 768px) {
-  .image-attribution {
-    bottom: 0; } }
-
-/*	BigVideo Styles
-You may need to adjust these styles to get this working right in your design.
-*/
-/* line 175, /Users/alec/workspace/hipache/static/sass/layouts/homepage */
-#big-video-wrap {
-  position: fixed;
-  top: 0;
-  left: 0; 
-  width: 100%;
-  height: 100%;
-  overflow: hidden;}
-
-/* line 176, /Users/alec/workspace/hipache/static/sass/layouts/homepage */
-#big-video-vid, #big-video-image {
-  position: absolute; }
-
-/* line 177, /Users/alec/workspace/hipache/static/sass/layouts/homepage */
-#big-video-control-container {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  padding: 10px;
-  background: rgba(0, 0, 0, .25);
-  transition-duration: .6s; }
-
-/* line 179, /Users/alec/workspace/hipache/static/sass/layouts/homepage */
-#big-video-control {
-  position: relative; 
-  width: 100%;
-  height: 16px;}
-
-/* line 180, /Users/alec/workspace/hipache/static/sass/layouts/homepage */
-#big-video-control-middle {
-  margin: 0 56px 0 24px; }
-
-/* line 181, /Users/alec/workspace/hipache/static/sass/layouts/homepage */
-#big-video-control-bar {
-  position: relative;
-  width: 100%;
-  height: 16px;
-  cursor: pointer; }
-
-/* line 182, /Users/alec/workspace/hipache/static/sass/layouts/homepage */
-#big-video-control-progress {
-  position: absolute;
-  top: 7px;
-  width: 0;
-  height: 3px;
-  background: #fff; }
-
-/* line 183, /Users/alec/workspace/hipache/static/sass/layouts/homepage */
-#big-video-control-track {
-  position: absolute;
-  top: 8px;
-  width: 100%;
-  height: 1px;
-  background: #fff; }
-
-/* line 184, /Users/alec/workspace/hipache/static/sass/layouts/homepage */
-#big-video-control-bound-left {
-  left: 0; }
-
-/* line 185, /Users/alec/workspace/hipache/static/sass/layouts/homepage */
-#big-video-control-bound-right {
-  right: -1px; }
-
-/* line 186, /Users/alec/workspace/hipache/static/sass/layouts/homepage */
-#big-video-control-track .ui-slider-handle {
-  opacity: 0; }
-
-/* line 187, /Users/alec/workspace/hipache/static/sass/layouts/homepage */
-#big-video-control-playhead {
-  left: 30%; }
-
-/* line 188, /Users/alec/workspace/hipache/static/sass/layouts/homepage */
-#big-video-control-play {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 16px;
-  height: 16px;
-  background-image: url('bigvideo.png'); }
-
-/* line 189, /Users/alec/workspace/hipache/static/sass/layouts/homepage */
-#big-video-control-timer {
-  position: absolute;
-  top: 1px;
-  right: 0;
-  font-size: 11px; 
-  color: #fff;}
-
-/* line 190, /Users/alec/workspace/hipache/static/sass/layouts/homepage */
-#big-video-control-playhead, #big-video-control-bound-left, #big-video-control-bound-right {
-  position: absolute;
-  top: 0;
-  width: 1px;
-  height: 16px;
-  background: #fff; }
-
-/* line 191, /Users/alec/workspace/hipache/static/sass/layouts/homepage */
-#big-video-control .ui-slider-handle {
-  position: absolute;
-  top: -8px; 
-  width: 16px;
-  height: 16px;
-  border-left: solid 1px #fff;}
-
-/* line 192, /Users/alec/workspace/hipache/static/sass/layouts/homepage */
-.transparent {
-      filter: alpha(opacity=0);
-         opacity: 0; 
-
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    -moz-opacity: 0;
-  -khtml-opacity: 0;}
-
-/* line 193, /Users/alec/workspace/hipache/static/sass/layouts/homepage */
-.vjs-big-play-button {
-  display: none !important; }
-
-/* line 2, /Users/alec/workspace/hipache/static/sass/layouts/fourofour */
-.page-requested-page-does-not-exist .lede {
-  margin-bottom: 6em; }
-@media screen and (max-width: 520px) {
-  .page-requested-page-does-not-exist .lede {
-    margin-bottom: 1em; } }
-/* line 9, /Users/alec/workspace/hipache/static/sass/layouts/fourofour */
-.page-requested-page-does-not-exist .lede + .content-wrapper p {
-  margin-bottom: 8em; }
-
-/* line 2, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study h3 {
-  color: #164466; }
-/* line 6, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study #top-shot {
-  height: 0;
-  padding-bottom: 50%;
-  overflow: hidden; }
-@media (min-width: 768px) {
-  .case-study #top-shot {
-    padding-bottom: 35%; } }
-/* line 14, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study #top-shot img {
-  width: 100%; }
-/* line 20, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study .content-wrapper {
-  position: relative; }
-@media (min-width: 768px) {
-  .case-study .content-wrapper #cs-intro {
-    position: absolute;
-    top: -300px;
-    right: 40px; } }
-/* line 33, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study .content-wrapper #cs-intro > div {
-  padding-right: 35px;
-  padding-left: 35px;
-  color: #3f96d6; 
-  background-color: rgba(25, 69, 101, .9);}
-/* line 44, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study .content-wrapper #cs-intro > div h2 {
-  font-weight: 100; }
-@media (min-width: 768px) {
-  .case-study .content-wrapper #cs-quote {
-    position: absolute;
-    top: -100px; } }
-/* line 62, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study .content-wrapper #cs-quote blockquote p {
-  margin: 20px 20px 40px 20px; 
-  font-size: 27px;
-  font-weight: 600;}
-/* line 69, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study .content-wrapper #cs-quote blockquote footer .img-tick {
-  position: relative; 
-  float: right;}
-/* line 75, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study .content-wrapper #cs-quote blockquote footer .img-tick:before {
-  position: absolute;
-  top: -40px;
-  right: 40px;
-  width: 0;
-  height: 0;
-  content: '';
-  border-top: 20px solid #ecca34; 
-  border-right: 10px solid transparent;
-  border-left: 10px solid transparent;}
-/* line 88, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study .content-wrapper #cs-quote blockquote footer .img-tick .img-wrap {
-  width: 100px;
-  height: 100px;
-  overflow: hidden;
-  border-radius: 50px; }
-/* line 96, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study .content-wrapper #cs-quote blockquote footer cite {
-  float: right; }
-/* line 99, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study .content-wrapper #cs-quote blockquote footer cite span {
-  display: block; }
-/* line 102, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study .content-wrapper #cs-quote blockquote footer cite span:first-child {
-  font-family: DinNextRounded; }
-@media (min-width: 768px) {
-  .case-study .content-wrapper #cs-challenge {
-    padding-top: 100px; } }
-/* line 127, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study .content-wrapper #cs-highlights h3 {
-  line-height: 1.8; }
-/* line 132, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study .content-wrapper #cs-highlights ul {
-  padding: 0; 
-  margin: 0;}
-/* line 137, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study .content-wrapper #cs-highlights ul li {
-  margin-bottom: 2em; 
-  list-style: none;}
-/* line 144, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study .content-wrapper #cs-highlights ul li span {
-  padding: .1em .4em;
-  background-color: #f9efc0;
-
-  -webkit-box-decoration-break: clone;
-          box-decoration-break: clone; }
-/* line 155, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study .content-wrapper #cs-highlights ul li:nth-child(odd) {
-  clear: both; }
-/* line 162, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study .content-wrapper #cs-results {
-  margin-bottom: 40px; }
-/* line 167, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study .content-wrapper #cs-results ul {
-  padding: 0; 
-  margin: 0;}
-/* line 171, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study .content-wrapper #cs-results ul li {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  list-style: none;
-  border-top: 1px solid #3f96d6; }
-/* line 177, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study .content-wrapper #cs-results ul li:last-child {
-  border-bottom: 1px solid #3f96d6; }
-/* line 184, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study .content-wrapper #cs-tools {
-  margin-bottom: 40px; }
-/* line 189, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study .content-wrapper #cs-tools ul {
-  padding: 0; 
-  margin: 0;}
-/* line 193, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study .content-wrapper #cs-tools ul li {
-  display: inline-block;
-  padding: 2px 5px;
-  margin-bottom: 3px;
-  color: #3f96d6; 
-  list-style: none;
-  background-color: #e7f2fa;}
-/* line 203, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study .content-wrapper #cs-tools #cs-link {
-  display: block;
-  padding: 10px;
-  margin-top: 20px;
-  line-height: 1; 
-  color: #fff;
-  background-color: #164466;}
-/* line 211, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study .content-wrapper #cs-tools #cs-link:hover {
-  text-decoration: none; 
-  background-color: #1f6090;}
-/* line 216, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study .content-wrapper #cs-tools #cs-link i {
-  float: right; }
-/* line 223, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study #case-study-nav {
-  clear: both; }
-/* line 226, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study #case-study-nav ul {
-  padding: 0; 
-  margin: 0;}
-/* line 231, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study #case-study-nav ul li {
-  position: relative;
-  font-family: DinNextRounded;
-  list-style: none;
-  background-color: #3f96d6;
-  transition: background-color .15s ease-in-out; }
-/* line 240, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study #case-study-nav ul li:hover {
-  background-color: #287cba; }
-/* line 245, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study #case-study-nav ul li a {
-  display: block;
-  float: left;
-  width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 20%;
-  font-weight: 100;
-  color: rgba(255, 255, 255, .7);
-  transition: color .15s ease-in-out; }
-/* line 256, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study #case-study-nav ul li a:hover {
-  color: white;
-  text-decoration: none; }
-/* line 261, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study #case-study-nav ul li a span {
-  display: block;
-  font-weight: 500; }
-/* line 267, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study #case-study-nav ul li i {
-  position: absolute;
-  left: 20px;
-  display: block;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-size: 44px;
-  font-weight: 100;
-  color: white;
-  pointer-events: none;
-  cursor: pointer; }
-/* line 280, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study #case-study-nav ul li:last-child {
-  text-align: right;
-  border-top: 1px solid #fff; }
-@media (min-width: 768px) {
-  .case-study #case-study-nav ul li:last-child {
-    border-top: none;
-    border-left: 1px solid #fff; } }
-/* line 289, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study #case-study-nav ul li:last-child a {
-  float: right;
-  padding-right: 20%; }
-/* line 294, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study #case-study-nav ul li:last-child i {
-  right: 20px; 
-  left: auto;}
-/* line 303, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study #cs-screenshots {
-  position: relative;
-  height: 0;
-  padding-bottom: 50%;
-  margin-bottom: 20px; 
-  overflow: hidden;}
-/* line 310, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study #cs-screenshots img {
-  width: 100%; }
-/* line 315, /Users/alec/workspace/hipache/static/sass/layouts/case_studies */
-.case-study #cs-screenshots figcaption {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 20px;
-  font-style: italic;
-  color: #fff;
-  text-align: right;
-  background-color: rgba(0, 0, 0, .6); }
-
-@media (min-width: 768px) {
-  .page-arizona-state-university.case-study #cs-challenge {
-    padding-top: 160px; } }
-@media (min-width: 992px) {
-  .page-arizona-state-university.case-study #cs-challenge {
-    padding-top: 120px; } }
-
-/* line 23, /Users/alec/workspace/hipache/static/sass/components/lede */
-.lede {
-  padding-top: 2.75em;
-  padding-bottom: 2em;
-  margin-bottom: 0; 
-  color: #fff;
-  background-color: #3f96d6;}
-/* line 30, /Users/alec/workspace/hipache/static/sass/components/lede */
-.lede p {
-  max-width: 44em;
-  font-size: 1.2em !important; }
-/* line 43, /Users/alec/workspace/hipache/static/sass/components/lede */
-.lede h1 {
-  max-width: 18em;
-  margin-top: .5em; 
-  font-size: 3em;}
-
-/* line 52, /Users/alec/workspace/hipache/static/sass/components/lede */
-.page-about-us .lede, .lede.about-us {
-  background: linear-gradient(to bottom, -us #d54688 10%, #ca2e76 100%); 
-  background-color: #d54688;}
-
-/* line 58, /Users/alec/workspace/hipache/static/sass/components/lede */
-.page-services .lede, .lede.services {
-  overflow: hidden; 
-  background: linear-gradient(to bottom, #3f96d6 10%, #2a85c7 100%);
-  background-color: #3f96d6;}
-@media (min-width: 768px) {
-  .page-services .lede, .lede.services {
-    padding-top: 4em; } }
-
-/* line 68, /Users/alec/workspace/hipache/static/sass/components/lede */
-.page-careers .lede, .lede.careers {
-  background: linear-gradient(to bottom, #94bf32 10%, #7ea32b 100%); 
-  background-color: #94bf32;}
-
-/* line 74, /Users/alec/workspace/hipache/static/sass/components/lede */
-.page-contact .lede, .lede.contact {
-  background: linear-gradient(to bottom, #ecca34 10%, #e7c016 100%); 
-  background-color: #ecca34;}
-
-/* line 1, /Users/alec/workspace/hipache/static/sass/components/intro */
-.intro {
-  position: relative;
-  top: 0;
-  margin-top: 4em; }
-/* line 9, /Users/alec/workspace/hipache/static/sass/components/intro */
-.intro p {
-  width: 90%;
-  line-height: 1.5; }
-
-/* line 1, /Users/alec/workspace/hipache/static/sass/components/drawer */
-.drawer {
-  width: 100%;
-  clear: both; }
-/* line 7, /Users/alec/workspace/hipache/static/sass/components/drawer */
-.drawer .content {
-  padding: 1.5em 0 1.5em 0;
-  margin: 0 0 2em 0;
-  background: #eee; }
-
-/* line 15, /Users/alec/workspace/hipache/static/sass/components/modals */
-.bootbox-close-button {
-  float: right;
-  width: .9em !important;
-  height: 1.75em !important;
-  padding-top: 0 !important;
-  overflow: hidden;
-  font-size: 1.25em;
-  cursor: pointer; 
-  background: transparent !important;
-  background-color: none !important;
-  border-radius: 0 !important;}
-/* line 24, /Users/alec/workspace/hipache/static/sass/components/modals */
-.bootbox-close-button:hover {
-  color: #fff; 
-  background: none;}
-
-/* line 36, /Users/alec/workspace/hipache/static/sass/components/modals */
-.modal-header {
-  padding-top: 1em;
-  padding-bottom: .5em; }
-/* line 41, /Users/alec/workspace/hipache/static/sass/components/modals */
-.modal-header .modal-title {
-  font-weight: 300 !important; }
-/* line 45, /Users/alec/workspace/hipache/static/sass/components/modals */
-.modal-header h4 {
-  margin-top: 0; }
-/* line 50, /Users/alec/workspace/hipache/static/sass/components/modals */
-.modal-header .close {
-  float: right;
-  padding-top: .65em;
-  font-size: 1.25em;
-  color: #000; 
-  cursor: pointer;}
-/* line 62, /Users/alec/workspace/hipache/static/sass/components/modals */
-.modal-header .close:active, .modal-header .close:focus, .modal-header .close:hover {
-  color: #fff; }
-/* line 69, /Users/alec/workspace/hipache/static/sass/components/modals */
-.modal-header .social-links {
-  padding-left: 0; 
-  list-style: none;}
-/* line 73, /Users/alec/workspace/hipache/static/sass/components/modals */
-.modal-header .social-links li {
-  float: left;
-  padding: 0; 
-  margin-right: .75em;}
-/* line 78, /Users/alec/workspace/hipache/static/sass/components/modals */
-.modal-header .social-links a {
-  font-size: 1.25em;
-  color: #000; 
-  vertical-align: text-bottom;}
-/* line 83, /Users/alec/workspace/hipache/static/sass/components/modals */
-.modal-header .social-links a:hover {
-  color: #fff; }
-
-/* line 90, /Users/alec/workspace/hipache/static/sass/components/modals */
-.modal-content {
-  max-height: 100%; }
-/* line 92, /Users/alec/workspace/hipache/static/sass/components/modals */
-.modal-content > .content {
-  padding: 2em; }
-/* line 95, /Users/alec/workspace/hipache/static/sass/components/modals */
-.modal-content.vcard > .content {
-  padding-top: 1em;
-  margin-bottom: 1em; }
-
-/* line 102, /Users/alec/workspace/hipache/static/sass/components/modals */
-.powers {
-  position: relative;
-  width: 100%;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
-  padding-left: 0;
-  margin-top: 1em; 
-  clear: both;
-  list-style: none;}
-@media (min-width: 768px) {
-  .powers {
-    float: left;
-    width: 50%; } }
-/* line 113, /Users/alec/workspace/hipache/static/sass/components/modals */
-.powers > li {
-  margin-bottom: .25em; }
-/* line 117, /Users/alec/workspace/hipache/static/sass/components/modals */
-.powers label {
-  float: left;
-  min-width: 7.5em; 
-  margin-right: 1em;
-  margin-bottom: 0;}
-/* line 124, /Users/alec/workspace/hipache/static/sass/components/modals */
-.powers .progress {
-  margin-bottom: 0;
-  background-color: #d17da4;
-  border-radius: 2px; }
-/* line 130, /Users/alec/workspace/hipache/static/sass/components/modals */
-.powers .progress-bar-powers {
-  background-color: #d0317b;
-  border: 2px solid #d17da4; 
-  border-radius: 3px;}
-
-/* line 139, /Users/alec/workspace/hipache/static/sass/components/modals */
-.page-about-us .modal-header {
-  background: #d54688; }
-/* line 142, /Users/alec/workspace/hipache/static/sass/components/modals */
-.page-about-us .modal-content {
-  background: #e384b0; }
-
-/* line 148, /Users/alec/workspace/hipache/static/sass/components/modals */
-.page-services .modal-header {
-  background: #3f96d6; }
-/* line 151, /Users/alec/workspace/hipache/static/sass/components/modals */
-.page-services .modal-content {
-  background: #7eb8e3; }
-
-/* line 157, /Users/alec/workspace/hipache/static/sass/components/modals */
-.page-careers .modal-header {
-  background: #94bf32; }
-/* line 160, /Users/alec/workspace/hipache/static/sass/components/modals */
-.page-careers .modal-content {
-  background: #b5d766; }
-
-/* line 166, /Users/alec/workspace/hipache/static/sass/components/modals */
-.page-contact .modal-header {
-  background: #ecca34; }
-/* line 169, /Users/alec/workspace/hipache/static/sass/components/modals */
-.page-contact .modal-content {
-  background: #f3dc7a; }
-/* line 172, /Users/alec/workspace/hipache/static/sass/components/modals */
-.page-contact .btn-primary {
-  background: #bf6514; }
-/* line 174, /Users/alec/workspace/hipache/static/sass/components/modals */
-.page-contact .btn-primary:hover {
-  color: #62340a; }
-
-/* line 181, /Users/alec/workspace/hipache/static/sass/components/modals */
-.modal-dialog {
-  color: #000; }
-
-/* line 185, /Users/alec/workspace/hipache/static/sass/components/modals */
-.modal {
-  -webkit-perspective-origin: bottom;
-          perspective-origin: bottom;
-  -webkit-perspective: 400px;
-          perspective: 400px;
-  text-color: #000; }
-/* line 191, /Users/alec/workspace/hipache/static/sass/components/modals */
-.modal .modal-dialog {
-  padding-bottom: 2em; 
-  margin-bottom: 0;
-  transition-duration: .275s !important;
-  transition-property: -webkit-transform;
-  transition-property:         transform;
-  -webkit-transform: rotateX(20deg) translate3d(0, 200%, 0) !important;
-          transform: rotateX(20deg) translate3d(0, 200%, 0) !important;
-  -webkit-transform-origin: center top;
-      -ms-transform-origin: center top;
-          transform-origin: center top;}
-/* line 201, /Users/alec/workspace/hipache/static/sass/components/modals */
-.modal.in .modal-dialog {
-  -webkit-transform: rotateX(0) translate3d(0, 0, 0) !important;
-          transform: rotateX(0) translate3d(0, 0, 0) !important; }
-/* line 205, /Users/alec/workspace/hipache/static/sass/components/modals */
-.modal .vcard .photo {
-  width: 100%;
-  margin-right: 1em;
-  margin-bottom: 1em; 
-  overflow: hidden;}
-/* line 210, /Users/alec/workspace/hipache/static/sass/components/modals */
-.modal .vcard .photo img {
-  display: block;
-  width: 100%; }
-
-/* line 28, /Users/alec/workspace/hipache/static/sass/components/cta */
-.cta, .case-study-cta {
-  width: 100%;
-  color: #fff;
-  transition-duration: .15s; 
-  transition-property: background-color;}
-/* line 31, /Users/alec/workspace/hipache/static/sass/components/cta */
-.cta p, .case-study-cta p {
-  margin-left: 1em; 
-  font-size: 1.25em;}
-/* line 36, /Users/alec/workspace/hipache/static/sass/components/cta */
-.cta h3, .case-study-cta h3 {
-  margin-left: .75em; 
-  font-size: 1.75em;}
-@media screen and (min-width: 768px) {
-  .cta h3, .case-study-cta h3 {
-    margin-left: .15em; 
-    font-size: 2em;} }
-/* line 45, /Users/alec/workspace/hipache/static/sass/components/cta */
-.cta a, .case-study-cta a {
-  display: block;
-  width: 100%;
-  height: 100%;
-  padding-top: 1em;
-  padding-bottom: 3em; 
-  color: #fff;}
-/* line 52, /Users/alec/workspace/hipache/static/sass/components/cta */
-.cta a:hover, .case-study-cta a:hover {
-  color: none; 
-  text-decoration: none;}
-/* line 64, /Users/alec/workspace/hipache/static/sass/components/cta */
-.cta h3, .case-study-cta h3, .cta a, .case-study-cta a {
-  transition-duration: .325s; 
-  transition-property: color;}
-
-/* line 72, /Users/alec/workspace/hipache/static/sass/components/cta */
-.page-services .cta, .page-services .case-study-cta {
-  background-color: #3f96d6; }
-/* line 75, /Users/alec/workspace/hipache/static/sass/components/cta */
-.page-services .cta h3, .page-services .case-study-cta h3, .page-services .cta a, .page-services .case-study-cta a {
-  color: #164466; }
-/* line 78, /Users/alec/workspace/hipache/static/sass/components/cta */
-.page-services .cta:hover, .page-services .case-study-cta:hover {
-  background-color: #2c8acf; }
-/* line 80, /Users/alec/workspace/hipache/static/sass/components/cta */
-.page-services .cta:hover a, .page-services .case-study-cta:hover a {
-  color: #a8cfec; }
-
-/* line 86, /Users/alec/workspace/hipache/static/sass/components/cta */
-.page-about-us .cta, .page-about-us .case-study-cta {
-  margin-top: 0;
-  background-color: #d54688; }
-/* line 90, /Users/alec/workspace/hipache/static/sass/components/cta */
-.page-about-us .cta h3, .page-about-us .case-study-cta h3, .page-about-us .cta a, .page-about-us .case-study-cta a {
-  color: #6a183e; }
-/* line 93, /Users/alec/workspace/hipache/static/sass/components/cta */
-.page-about-us .cta:hover, .page-about-us .case-study-cta:hover {
-  background-color: #d0317b; }
-/* line 95, /Users/alec/workspace/hipache/static/sass/components/cta */
-.page-about-us .cta:hover a, .page-about-us .case-study-cta:hover a {
-  color: #edaecb; }
-
-/* line 101, /Users/alec/workspace/hipache/static/sass/components/cta */
-.page-careers .cta-wrapper {
-  margin-top: 2em; }
-
-/* line 105, /Users/alec/workspace/hipache/static/sass/components/cta */
-.page-careers .cta, .page-careers .case-study-cta {
-  background-color: #94bf32; }
-/* line 108, /Users/alec/workspace/hipache/static/sass/components/cta */
-.page-careers .cta h3, .page-careers .case-study-cta h3, .page-careers .cta a, .page-careers .case-study-cta a {
-  color: #364612; }
-/* line 111, /Users/alec/workspace/hipache/static/sass/components/cta */
-.page-careers .cta:hover, .page-careers .case-study-cta:hover {
-  background-color: #84ab2d; }
-/* line 113, /Users/alec/workspace/hipache/static/sass/components/cta */
-.page-careers .cta:hover a, .page-careers .case-study-cta:hover a {
-  color: #c8e28f; }
-
-/* line 120, /Users/alec/workspace/hipache/static/sass/components/cta */
-.page-contact .cta, .page-contact .case-study-cta, .case-study .cta, .case-study .case-study-cta {
-  background-color: #ecca34; }
-/* line 123, /Users/alec/workspace/hipache/static/sass/components/cta */
-.page-contact .cta h3, .page-contact .case-study-cta h3, .page-contact .cta a, .page-contact .case-study-cta a, .case-study .cta h3, .case-study .case-study-cta h3, .case-study .cta a, .case-study .case-study-cta a {
-  color: #4d4007; }
-/* line 126, /Users/alec/workspace/hipache/static/sass/components/cta */
-.page-contact .cta:hover, .page-contact .case-study-cta:hover, .case-study .cta:hover, .case-study .case-study-cta:hover {
-  background-color: #e7c016; }
-/* line 128, /Users/alec/workspace/hipache/static/sass/components/cta */
-.page-contact .cta:hover a, .page-contact .case-study-cta:hover a, .case-study .cta:hover a, .case-study .case-study-cta:hover a {
-  color: #f7e8a9; }
-
-/* line 134, /Users/alec/workspace/hipache/static/sass/components/cta */
-.page-home .cta, .page-home .case-study-cta {
-  background-color: #3f96d6; }
-
-/* line 138, /Users/alec/workspace/hipache/static/sass/components/cta */
-.case-study-cta {
-  padding-bottom: 0; }
-/* line 144, /Users/alec/workspace/hipache/static/sass/components/cta */
-.case-study-cta .content-wrapper {
-  position: relative; }
-/* line 148, /Users/alec/workspace/hipache/static/sass/components/cta */
-.case-study-cta h3 {
-  font-size: 1.5em; }
-@media (max-width: 768px) {
-  .case-study-cta h3 {
-    font-size: 28px; } }
-/* line 155, /Users/alec/workspace/hipache/static/sass/components/cta */
-.case-study-cta a {
-  padding-bottom: 0; }
-@media (min-width: 768px) {
-  .case-study-cta a {
-    padding-top: 2em; } }
-/* line 163, /Users/alec/workspace/hipache/static/sass/components/cta */
-.case-study-cta img {
-  display: block;
-  width: 220px;
-  padding-top: 0; 
-  margin: 0 auto;
-  margin-bottom: 0;
-  border: none;}
-@media (min-width: 768px) {
-  .case-study-cta img {
-    position: absolute;
-    bottom: 0;
-    left: 1em;
-    float: left; 
-    margin: 0;} }
-@media (min-width: 768px) {
-  .case-study-cta .cta-content {
-    display: block;
-    margin-left: 250px; } }
-
-/* line 1, /Users/alec/workspace/hipache/static/sass/components/tags */
-.tags {
-  padding-left: 5px; }
-/* line 10, /Users/alec/workspace/hipache/static/sass/components/tags */
-.tags li a {
-  display: inline-block;
-  padding: 1px 5px;
-  margin: 0 5px 5px 0;
-  font-size: 13px;
-  font-weight: normal;
-  line-height: 1.5;
-  color: #fff;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  cursor: pointer;
-  background-color: #3f96d6;
-  border-radius: .25em; }
-/* line 26, /Users/alec/workspace/hipache/static/sass/components/tags */
-.tags li:hover a {
-  background-color: #1f6090; }
-
-/* line 1, /Users/alec/workspace/hipache/static/sass/components/footer */
-#footer {
-  position: relative;
-  z-index: 10;
-  width: 100%; 
-  padding: .75em 0 .75em 0;
-  background: #eee;}
-/* line 11, /Users/alec/workspace/hipache/static/sass/components/footer */
-.page-home #footer {
-  position: fixed;
-  bottom: 1em; 
-  padding-left: 0;
-  color: #fff;
-  background-color: transparent;}
-/* line 20, /Users/alec/workspace/hipache/static/sass/components/footer */
-.page-home #footer .org {
-  display: none; }
-/* line 24, /Users/alec/workspace/hipache/static/sass/components/footer */
-.page-home #footer .contact-info {
-  float: left;
-  padding: 0 0 0 2em !important; }
-@media (min-width: 768px) {
-  .page-home #footer .contact-info {
-    float: right; } }
-
-/* line 40, /Users/alec/workspace/hipache/static/sass/components/footer */
-#footer-logo {
-  width: 100%;
-  max-width: 200px;
-  padding-bottom: 44%;
-  background: url(/images/kalamuna-lockup.svg) no-repeat;
-  background-size: contain; }
-
-/* line 51, /Users/alec/workspace/hipache/static/sass/components/footer */
-#address {
-  float: left;
-  width: 100%;
-  padding-top: 2em;
-  padding-left: .25em;
-  font-size: 13px; }
-@media (min-width: 768px) {
-  #address {
-    float: left;
-    width: 50%;
-    padding-top: 1em; } }
-/* line 66, /Users/alec/workspace/hipache/static/sass/components/footer */
-#address .org {
-  float: left;
-  width: 50%;
-  max-width: 200px; }
-/* line 72, /Users/alec/workspace/hipache/static/sass/components/footer */
-#address .contact-info {
-  float: right;
-  width: 50%;
-  padding: 3.7% 1em;
-  line-height: 1.25em; }
-@media (min-width: 768px) {
-  #address .contact-info {
-    float: left;
-    padding-top: 1em; 
-    padding-bottom: 1em;} }
-
-/* line 90, /Users/alec/workspace/hipache/static/sass/components/footer */
-#footer-nav {
-  width: 100%; }
-@media (min-width: 768px) {
-  #footer-nav {
-    float: right;
-    width: 50%; } }
-/* line 102, /Users/alec/workspace/hipache/static/sass/components/footer */
-.page-home #footer-nav {
-  width: 100%; }
-
-/* line 109, /Users/alec/workspace/hipache/static/sass/components/footer */
-#nav-social {
-  position: relative;
-  top: .95em; }
-/* line 114, /Users/alec/workspace/hipache/static/sass/components/footer */
-#nav-social ul {
-  padding: 0; 
-  list-style: none;}
-@media (min-width: 768px) {
-  #nav-social ul {
-    display: block;
-    float: right; 
-    width: auto;
-    padding-right: 1em;} }
-/* line 126, /Users/alec/workspace/hipache/static/sass/components/footer */
-#nav-social ul li {
-  text-align: center; }
-/* line 131, /Users/alec/workspace/hipache/static/sass/components/footer */
-#nav-social ul li a:hover {
-  color: #2c6995;
-  text-decoration: none; 
-  background: none;}
-@media (min-width: 768px) {
-  #nav-social ul li {
-    display: block;
-    float: left;
-    width: auto;
-    padding-left: 1em; 
-    text-align: left;} }
-/* line 150, /Users/alec/workspace/hipache/static/sass/components/footer */
-#nav-social ul.kala li {
-  float: left; 
-  width: 50%;}
-/* line 155, /Users/alec/workspace/hipache/static/sass/components/footer */
-#nav-social ul.social li {
-  float: left;
-  width: 25%; }
-
-/* line 166, /Users/alec/workspace/hipache/static/sass/components/footer */
-.page-home #nav-social a {
-  color: #fff; }
-@media (min-width: 520px) {
-  .page-home #nav-social a {
-    padding-top: 0;
-    padding-bottom: 0; }
-  /* line 174, /Users/alec/workspace/hipache/static/sass/components/footer */
-  .page-home #nav-social a:hover {
-    color: #3f96d6; } }
-
-/* line 184, /Users/alec/workspace/hipache/static/sass/components/footer */
-#nav-social ul.kala {
-  position: relative;
-  position: relative;
-  top: -.325em; 
-  z-index: 10;
-  font-size: 2em;}
-/* line 192, /Users/alec/workspace/hipache/static/sass/components/footer */
-#nav-social ul.kala .box a {
-  display: block;
-  width: 110px;
-  margin: 0 auto; }
-/* line 196, /Users/alec/workspace/hipache/static/sass/components/footer */
-#nav-social ul.kala .box a .kalabox {
-  width: 110px; 
-  text-align: left;}
-/* line 202, /Users/alec/workspace/hipache/static/sass/components/footer */
-#nav-social ul.kala .blog a {
-  display: block;
-  width: 85px;
-  margin: 0 auto; }
-/* line 206, /Users/alec/workspace/hipache/static/sass/components/footer */
-#nav-social ul.kala .blog a .kalablog {
-  width: 85px; 
-  text-align: left;}
-@media (min-width: 768px) {
-  #nav-social ul.kala {
-    width: 280px; }
-  /* line 214, /Users/alec/workspace/hipache/static/sass/components/footer */
-  #nav-social ul.kala li {
-    padding-left: 0;
-    margin-left: 0;
-
-    box-size: border-box; }
-  /* line 219, /Users/alec/workspace/hipache/static/sass/components/footer */
-  #nav-social ul.kala .box {
-    width: 55%; }
-  /* line 222, /Users/alec/workspace/hipache/static/sass/components/footer */
-  #nav-social ul.kala .blog {
-    width: 45%; } }
-
-/* line 229, /Users/alec/workspace/hipache/static/sass/components/footer */
-#nav-social ul.social {
-  position: relative;
-  z-index: 11;
-  font-size: 1.75em; }
-@media (min-width: 768px) {
-  #nav-social ul.social {
-    margin-right: .25em; } }
-
-/* line 7, /Users/alec/workspace/hipache/static/sass/components/services */
-#support .plans {
-  background: #3f96d6;
-  /* Old browsers */ }
-@media (min-width: 768px) {
-  #support .plans {
-    /* FF3.6+ */
-    /* Chrome,Safari4+ */
-    /* Chrome10+,Safari5.1+ */
-    /* Opera 11.10+ */
-    /* IE10+ */
-    background: linear-gradient(to bottom, #3f96d6 32%, #eee 32%);
-    /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$grad-start', endColorstr='$grad-end',GradientType=0 );
-    /* IE6-9 */ } }
-@media (min-width: 992px) {
-  #support .plans {
-    /* FF3.6+ */
-    /* Chrome,Safari4+ */
-    /* Chrome10+,Safari5.1+ */
-    /* Opera 11.10+ */
-    /* IE10+ */
-    background: linear-gradient(to bottom, #3f96d6 42%, #eee 42%);
-    /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$grad-start', endColorstr='$grad-end',GradientType=0 );
-    /* IE6-9 */ } }
-@media (min-width: 1200px) {
-  #support .plans {
-    /* FF3.6+ */
-    /* Chrome,Safari4+ */
-    /* Chrome10+,Safari5.1+ */
-    /* Opera 11.10+ */
-    /* IE10+ */
-    background: linear-gradient(to bottom, #3f96d6 46%, #eee 46%);
-    /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$grad-start', endColorstr='$grad-end',GradientType=0 );
-    /* IE6-9 */ } }
-
-/* line 38, /Users/alec/workspace/hipache/static/sass/components/services */
-#design {
-  overflow: hidden; }
-/* line 42, /Users/alec/workspace/hipache/static/sass/components/services */
-#design > .content-wrapper {
-  padding-bottom: 14em; }
-/* line 46, /Users/alec/workspace/hipache/static/sass/components/services */
-#design .knob {
-  display: block; }
-/* line 48, /Users/alec/workspace/hipache/static/sass/components/services */
-#design .knob:hover {
-  cursor: col-resize; }
-@media screen and (max-width: 768px) {
-  /* line 54, /Users/alec/workspace/hipache/static/sass/components/services */
-  #design .content-wrapper {
-    position: relative; }
-
-  /* line 57, /Users/alec/workspace/hipache/static/sass/components/services */
-  #design .knob {
-    display: none; }
-
-  /* line 60, /Users/alec/workspace/hipache/static/sass/components/services */
-  #design .mobile-controls {
-    display: block; 
-    padding: .5em 1.5em 1.5em 1.5em !important;}
-  }
-
-/* line 71, /Users/alec/workspace/hipache/static/sass/components/services */
-.controls .buttons {
-  margin-top: 10px;
-  margin-bottom: 10px; }
-/* line 77, /Users/alec/workspace/hipache/static/sass/components/services */
-.controls .buttons .less, .controls .buttons .more {
-  cursor: pointer;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none; 
-
-  -webkit-touch-callout: none;
-   -khtml-user-select: none;}
-/* line 80, /Users/alec/workspace/hipache/static/sass/components/services */
-.controls .buttons .less:hover i, .controls .buttons .more:hover i {
-  color: #2f70a0; 
-  background-color: #9fcaea;}
-/* line 85, /Users/alec/workspace/hipache/static/sass/components/services */
-.controls .buttons .less i, .controls .buttons .more i {
-  position: relative; 
-  display: inline-block;
-  width: 25px;
-  height: 25px;
-  padding: 5px;
-  margin-right: 5px;
-  color: #2f70a0;
-  text-align: center;
-  background-color: #9fcaea;
-  border-radius: 50%;}
-/* line 98, /Users/alec/workspace/hipache/static/sass/components/services */
-.controls .buttons .less span, .controls .buttons .more span {
-  font-size: 14px; 
-  color: #2f70a0;}
-/* line 116, /Users/alec/workspace/hipache/static/sass/components/services */
-.controls .buttons .more {
-  float: right; }
-/* line 118, /Users/alec/workspace/hipache/static/sass/components/services */
-.controls .buttons .more i {
-  margin-right: 0;
-  margin-left: 5px; 
-  color: #9fcaea;
-  background-color: #2f70a0;}
-/* line 127, /Users/alec/workspace/hipache/static/sass/components/services */
-.controls p {
-  padding: 1em .5em .5em .5em;
-  background: #ecca34;
-  border-top: 1px #3f96d6 solid;
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, .25); }
-
-@media screen and (max-width: 768px) {
-  #design .mobile-controls {
-    padding-right: .25em; 
-    padding-left: .375em;} }
-
-/* line 146, /Users/alec/workspace/hipache/static/sass/components/services */
-#development .content {
-  padding-top: 2em; 
-  padding-right: 0;
-  padding-left: 0;}
-
-/* line 155, /Users/alec/workspace/hipache/static/sass/components/services */
-#strategy > .content-wrapper {
-  padding-bottom: 3em; }
-/* line 159, /Users/alec/workspace/hipache/static/sass/components/services */
-#strategy .content {
-  padding-top: 2em; 
-  padding-right: 0;
-  padding-left: 0;}
-/* line 165, /Users/alec/workspace/hipache/static/sass/components/services */
-#strategy .content h4 {
-  margin-top: 2em; }
-/* line 170, /Users/alec/workspace/hipache/static/sass/components/services */
-#strategy .content .tags-block h5 {
-  float: left;
-  margin-right: .5em; }
-/* line 176, /Users/alec/workspace/hipache/static/sass/components/services */
-#strategy .content .tags {
-  padding-top: .675em; }
-@media screen and (max-width: 768px) {
-  #strategy {
-    position: relative; } }
-/* line 186, /Users/alec/workspace/hipache/static/sass/components/services */
-#strategy .mobile-label {
-  display: none; }
-@media screen and (max-width: 768px) {
-  #strategy .controls {
-    position: absolute;
-    top: 3.75em; 
-    right: 0;
-    padding-right: .25em;
-    padding-left: .375em;
-    overflow: hidden;
-    background: #eee;
-    box-shadow: -1px 1px 5px rgba(0, 0, 0, .25);}
-  /* line 201, /Users/alec/workspace/hipache/static/sass/components/services */
-  #strategy .controls #strategy-slider {
-    position: relative;
-    margin-top: .5em;
-    margin-bottom: .5em; }
-  /* line 207, /Users/alec/workspace/hipache/static/sass/components/services */
-  #strategy .controls .mobile-label {
-    display: block;
-    font-size: .75em; }
-  /* line 211, /Users/alec/workspace/hipache/static/sass/components/services */
-  #strategy .controls h4.mobile-label {
-    font-size: 1.125em; }
-  /* line 215, /Users/alec/workspace/hipache/static/sass/components/services */
-  #strategy .controls .noUi-target {
-    width: 1em; }
-  /* line 219, /Users/alec/workspace/hipache/static/sass/components/services */
-  #strategy .controls .noUi-vertical .noUi-handle {
-    left: -.25em !important;
-    width: 2em !important;
-    height: 1em;
-    -webkit-transform: translateY(.75em);
-        -ms-transform: translateY(.75em);
-            transform: translateY(.75em); }
-  /* line 227, /Users/alec/workspace/hipache/static/sass/components/services */
-  #strategy .controls .noUi-handle:after, #strategy .controls .noUi-handle:before {
-    top: 1.25em; 
-    left: .5em !important;
-    width: 1em !important;}
-  /* line 233, /Users/alec/workspace/hipache/static/sass/components/services */
-  #strategy .controls h3 {
-    display: none;
-    margin-top: .5em; 
-    font-size: 1em;}
-  /* line 239, /Users/alec/workspace/hipache/static/sass/components/services */
-  #strategy .controls .noUi-target {
-    width: 1em !important; 
-    margin-left: .5em;}
-  /* line 246, /Users/alec/workspace/hipache/static/sass/components/services */
-  #strategy .controls .noUi-pips-vertical {
-    margin-left: .5em; }
-  /* line 249, /Users/alec/workspace/hipache/static/sass/components/services */
-  #strategy .controls .noUi-value, #strategy .controls .noUi-value-vertical, #strategy .controls .noUi-value-sub {
-    padding-left: .5em; } }
-
-/* line 257, /Users/alec/workspace/hipache/static/sass/components/services */
-#strategy-slider {
-  height: 260px; 
-  margin-top: 2em;
-  margin-left: 2em;}
-
-/* line 268, /Users/alec/workspace/hipache/static/sass/components/services */
-#pointless p {
-  margin-top: 1em;
-  font-size: 1.2em;
-  line-height: 2em; }
-
-/* line 275, /Users/alec/workspace/hipache/static/sass/components/services */
-#development .dev-point {
-  margin-bottom: 3em;
-  text-align: center; }
-
-/* line 284, /Users/alec/workspace/hipache/static/sass/components/services */
-#support .plans {
-  padding-top: 2em;
-  padding-bottom: 2em; }
-/* line 288, /Users/alec/workspace/hipache/static/sass/components/services */
-#support .plans .support-plan {
-  position: relative; }
-/* line 292, /Users/alec/workspace/hipache/static/sass/components/services */
-#support .content {
-  padding-top: 2em;
-  padding-bottom: 2em; }
-/* line 299, /Users/alec/workspace/hipache/static/sass/components/services */
-#support .support-plan .media {
-  padding-right: 1em; 
-  padding-left: 1em;}
-@media (max-width: 520px) {
-  #support .support-plan .media {
-    width: 100%; } }
-/* line 308, /Users/alec/workspace/hipache/static/sass/components/services */
-#support .support-plan .media img {
-  border-bottom: 1px #287cba solid; }
-/* line 313, /Users/alec/workspace/hipache/static/sass/components/services */
-#support .support-plan .plan_content {
-  padding: 0;
-  padding-top: 1.5em;
-  color: #fff; }
-@media (max-width: 520px) {
-  #support .support-plan .plan_content {
-    width: 100%; } }
-@media (min-width: 768px) {
-  #support .support-plan .plan_content {
-    color: #333; } }
-/* line 328, /Users/alec/workspace/hipache/static/sass/components/services */
-#support .support-plan {
-  padding: 0 1em; }
-/* line 331, /Users/alec/workspace/hipache/static/sass/components/services */
-#support ul {
-  padding-left: 0;
-  list-style: none;
-  border-top: 1px #3f96d6 solid; }
-/* line 335, /Users/alec/workspace/hipache/static/sass/components/services */
-#support ul li {
-  padding: .5em 0;
-  line-height: 1.2; 
-  border-bottom: 1px #93c4e8 solid;}
-@media (min-width: 768px) {
-  #support ul li {
-    border-bottom: 1px #3f96d6 solid; } }
-
-/* line 347, /Users/alec/workspace/hipache/static/sass/components/services */
-#client-testimonials h2 {
-  margin-bottom: 1em; }
-/* line 351, /Users/alec/workspace/hipache/static/sass/components/services */
-#client-testimonials blockquote {
-  padding: 0;
-  margin-bottom: 3em; }
-/* line 356, /Users/alec/workspace/hipache/static/sass/components/services */
-#client-testimonials blockquote p {
-  padding: 1em; 
-  font-weight: 100;}
-/* line 367, /Users/alec/workspace/hipache/static/sass/components/services */
-#client-testimonials blockquote footer {
-  padding-top: 2em;
-  text-align: center; }
-@media (min-width: 768px) {
-  #client-testimonials blockquote footer {
-    padding-top: 0; 
-    padding-left: 0;} }
-/* line 378, /Users/alec/workspace/hipache/static/sass/components/services */
-#client-testimonials blockquote footer:before {
-  position: absolute;
-  top: -11px;
-  left: 48%;
-  width: 0;
-  height: 0;
-  content: '';
-  border-top: 20px solid #ecca34;
-  border-right: 10px solid transparent; 
-  border-left: 10px solid transparent;}
-@media (min-width: 768px) {
-  #client-testimonials blockquote footer:before {
-    top: 90px;
-    left: 0;
-    border-top: 10px solid transparent;
-    border-right: none; 
-    border-bottom: 10px solid transparent;
-    border-left: 20px solid #ecca34;} }
-@media (min-width: 768px) and (max-width: 992px) {
-  #client-testimonials blockquote footer:before {
-    top: 60px; } }
-/* line 403, /Users/alec/workspace/hipache/static/sass/components/services */
-#client-testimonials blockquote footer cite {
-  margin: 0; }
-/* line 407, /Users/alec/workspace/hipache/static/sass/components/services */
-#client-testimonials blockquote footer img {
-  margin-bottom: 1em; 
-  border-radius: 50%;}
-@media (min-width: 768px) and (max-width: 992px) {
-  #client-testimonials blockquote footer img {
-    width: 140px; } }
-/* line 416, /Users/alec/workspace/hipache/static/sass/components/services */
-#client-testimonials blockquote footer .img-wrap {
-  width: 200px;
-  margin: auto; }
-@media (min-width: 768px) and (max-width: 992px) {
-  #client-testimonials blockquote footer .img-wrap {
-    width: 140px; } }
-@media (min-width: 768px) {
-
-  /* line 432, /Users/alec/workspace/hipache/static/sass/components/services */
-  #client-testimonials blockquote:nth-child(odd) footer {
-    padding-left: 3em; 
-    margin-left: -100%;}
-  /* line 436, /Users/alec/workspace/hipache/static/sass/components/services */
-  #client-testimonials blockquote:nth-child(odd) footer:before {
-    right: 0;
-    left: auto;
-    border-right: 20px solid #ecca34; 
-    border-left: none;}
-  }
-
-/* line 1, /Users/alec/workspace/hipache/static/sass/design/header */
-.identity, .shrunk .identity {
-  width: 187px;
-  height: 72px;
-  margin: 0; }
-
-/* line 7, /Users/alec/workspace/hipache/static/sass/design/header */
-.identity {
-  width: 262px;
-  height: 101px;
-  margin-top: 0;
-  margin-top: 0; 
-  background-image: url(../images/kalamuna-logo-2x.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  transition-duration: .25s;
-  transition-property: width, height, margin-top;}
-/* line 29, /Users/alec/workspace/hipache/static/sass/design/header */
-.identity a {
-  display: block; }
-
-/* line 37, /Users/alec/workspace/hipache/static/sass/design/header */
-.reversed .identity {
-  background-image: url(../images/kalamuna-logo-2x_reversed.png); }
-
-/* line 41, /Users/alec/workspace/hipache/static/sass/design/header */
-.open.reversed .identity {
-  background-image: url(../images/kalamuna-logo-2x.png); }
-
-/* line 47, /Users/alec/workspace/hipache/static/sass/design/header */
-.tabbed-nav {
-  margin-top: 0; }
-@media (min-width: 768px) {
-  .tabbed-nav ul {
-    position: relative;
-    left: -.75em; } }
-/* line 55, /Users/alec/workspace/hipache/static/sass/design/header */
-.tabbed-nav li {
-  float: left;
-  width: 50%; }
-@media (min-width: 768px) {
-  .tabbed-nav li {
-    width: auto; } }
-/* line 61, /Users/alec/workspace/hipache/static/sass/design/header */
-.tabbed-nav li a {
-  padding-top: 1em; 
-  font-family: DinNextRounded;
-  font-size: 21px;
-  font-weight: 300;
-  color: #eee;
-  color: #eee;}
-/* line 72, /Users/alec/workspace/hipache/static/sass/design/header */
-.tabbed-nav li:focus a, .tabbed-nav li:hover a {
-  margin: 0;
-  background-color: #3f96d6; 
-  border-radius: none;}
-/* line 79, /Users/alec/workspace/hipache/static/sass/design/header */
-.tabbed-nav li.active a {
-  background-color: #3f96d6; }
-
-@media screen and (max-width: 768px) {
-  /* line 87, /Users/alec/workspace/hipache/static/sass/design/header */
-  .tabbed-nav {
-    padding: 0 0; }
-  }
-
-@media screen and (max-width: 520px) {
-  /* line 94, /Users/alec/workspace/hipache/static/sass/design/header */
-  .nav-tabs {
-    width: 100%; }
-
-  /* line 97, /Users/alec/workspace/hipache/static/sass/design/header */
-  .tabbed-nav {
-    font-size: 1.25em; }
-  /* line 99, /Users/alec/workspace/hipache/static/sass/design/header */
-  .tabbed-nav li a {
-    padding-bottom: 1em; }
-  /* line 102, /Users/alec/workspace/hipache/static/sass/design/header */
-  .tabbed-nav li:last-child {
-    margin-right: 0; }
-  }
-
-@media screen and (max-width: 445px) {
-  /* line 111, /Users/alec/workspace/hipache/static/sass/design/header */
-  .page-services .tabbed-nav {
-    line-height: .75; }
-  }
-
-/* line 119, /Users/alec/workspace/hipache/static/sass/design/header */
-#subnav {
-  position: relative;
-  z-index: 1010;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  background-color: #3278ab;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, .25); 
-  transition-duration: .25s;
-  transition-property: top;}
-@media (min-width: 768px) {
-  #subnav {
-    position: fixed;
-    top: 6.75em; } }
-/* line 135, /Users/alec/workspace/hipache/static/sass/design/header */
-#subnav .content {
-  width: 100%;
-  margin: 0 auto; }
-
-/* line 142, /Users/alec/workspace/hipache/static/sass/design/header */
-.shrunk #subnav {
-  top: 4em; }
-
-/* line 1, /Users/alec/workspace/hipache/static/sass/design/links */
-a:focus {
-  text-decoration: none; 
-  outline: none;}
-
-/* line 9, /Users/alec/workspace/hipache/static/sass/design/links */
-a:hover, a:active, a.active, a:focus {
-  color: #236ea5;
-  text-decoration: none; }
-
-/* line 14, /Users/alec/workspace/hipache/static/sass/design/links */
-a:hover {
-  text-decoration: underline; }
-
-@media screen and (min-width: 768px) {
-  .our-values {
-    padding-bottom: 5em; } }
-/* line 7, /Users/alec/workspace/hipache/static/sass/design/values */
-.our-values .values_list {
-  position: relative; 
-  margin-top: 4em;}
-/* line 13, /Users/alec/workspace/hipache/static/sass/design/values */
-.our-values .value {
-  position: relative;
-  padding: 1.5em 0; 
-  margin: 0 auto;
-  font-weight: 300;
-  line-height: 1;}
-@media screen and (min-width: 768px) {
-  .our-values .value {
-    padding: 2.5em 0; } }
-@media screen and (min-width: 768px) {
-  .our-values .value p {
-    width: 80%; } }
-
-/* line 1, /Users/alec/workspace/hipache/static/sass/design/bootbox_customizations */
-.bootbox-close-button {
-  width: 25px;
-  height: 25px;
-  padding: 0;
-  margin: 0;
-  font-size: 18px; 
-  color: white;
-  background-color: black;
-  border: none;
-  border-radius: 18px;}
-/* line 13, /Users/alec/workspace/hipache/static/sass/design/bootbox_customizations */
-.bootbox-close-button:hover {
-  color: black; 
-  background-color: white;}
-
-/**
- * Styles for specific pages across the site.
- */
-/**
- * Styles for the Contact page
- */
-/* line 6, /Users/alec/workspace/hipache/static/sass/pages/contact */
-.page-contact #contact-msg, .page-contact #contact-form {
-  clear: both; }
-/* line 10, /Users/alec/workspace/hipache/static/sass/pages/contact */
-.page-contact #contact-form {
-  margin: 1em 0 2em; }
-/* line 12, /Users/alec/workspace/hipache/static/sass/pages/contact */
-.page-contact #contact-form #mce-NAME {
-  float: left; 
-  width: 45%;}
-/* line 16, /Users/alec/workspace/hipache/static/sass/pages/contact */
-.page-contact #contact-form #mce-EMAIL {
-  float: right; 
-  width: 45%;}
-/* line 23, /Users/alec/workspace/hipache/static/sass/pages/contact */
-.page-contact .form-horizontal .form-group {
-  margin: 0 0 15px; }
-
-/**
- * Styles for the Careers page
- */
-/* line 5, /Users/alec/workspace/hipache/static/sass/pages/careers */
-.intro ul {
-  border-top: 1px #94bf32 solid; }
-/* line 8, /Users/alec/workspace/hipache/static/sass/pages/careers */
-.intro ul li {
-  border-bottom: 1px #94bf32 solid; }
-
-/* line 14, /Users/alec/workspace/hipache/static/sass/pages/careers */
-.page-careers .who {
-  padding: 3em; 
-  background: #eee;}
 
 /**
  * Styles for the Kalabox page
  */
 @-webkit-keyframes cloudsfront {
-  /* line 7, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 7, /Users/alec/workspace/hipache/static/sass/kalabox */
   0% {
     -webkit-transform: translateX(0); }
 
-  /* line 8, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 8, /Users/alec/workspace/hipache/static/sass/kalabox */
   50% {
     -webkit-transform: translateX(40%); }
 
-  /* line 9, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 9, /Users/alec/workspace/hipache/static/sass/kalabox */
   100% {
     -webkit-transform: translateX(0); } }
 
 @keyframes cloudsfront {
-  /* line 12, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 12, /Users/alec/workspace/hipache/static/sass/kalabox */
   0% {
     -webkit-transform: translateX(0);
             transform: translateX(0); }
 
-  /* line 13, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 13, /Users/alec/workspace/hipache/static/sass/kalabox */
   50% {
     -webkit-transform: translateX(40%);
             transform: translateX(40%); }
 
-  /* line 14, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 14, /Users/alec/workspace/hipache/static/sass/kalabox */
   100% {
     -webkit-transform: translateX(0);
             transform: translateX(0); } }
 
 @-webkit-keyframes cloudsdark {
-  /* line 7, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 7, /Users/alec/workspace/hipache/static/sass/kalabox */
   0% {
     -webkit-transform: translateX(0); }
 
-  /* line 8, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 8, /Users/alec/workspace/hipache/static/sass/kalabox */
   50% {
     -webkit-transform: translateX(-10%); }
 
-  /* line 9, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 9, /Users/alec/workspace/hipache/static/sass/kalabox */
   100% {
     -webkit-transform: translateX(0); } }
 
 @keyframes cloudsdark {
-  /* line 12, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 12, /Users/alec/workspace/hipache/static/sass/kalabox */
   0% {
     -webkit-transform: translateX(0);
             transform: translateX(0); }
 
-  /* line 13, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 13, /Users/alec/workspace/hipache/static/sass/kalabox */
   50% {
     -webkit-transform: translateX(-10%);
             transform: translateX(-10%); }
 
-  /* line 14, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 14, /Users/alec/workspace/hipache/static/sass/kalabox */
   100% {
     -webkit-transform: translateX(0);
             transform: translateX(0); } }
 
 @-webkit-keyframes cloudslight {
-  /* line 7, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 7, /Users/alec/workspace/hipache/static/sass/kalabox */
   0% {
     -webkit-transform: translateX(0); }
 
-  /* line 8, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 8, /Users/alec/workspace/hipache/static/sass/kalabox */
   50% {
     -webkit-transform: translateX(-8%); }
 
-  /* line 9, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 9, /Users/alec/workspace/hipache/static/sass/kalabox */
   100% {
     -webkit-transform: translateX(0); } }
 
 @keyframes cloudslight {
-  /* line 12, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 12, /Users/alec/workspace/hipache/static/sass/kalabox */
   0% {
     -webkit-transform: translateX(0);
             transform: translateX(0); }
 
-  /* line 13, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 13, /Users/alec/workspace/hipache/static/sass/kalabox */
   50% {
     -webkit-transform: translateX(-8%);
             transform: translateX(-8%); }
 
-  /* line 14, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 14, /Users/alec/workspace/hipache/static/sass/kalabox */
   100% {
     -webkit-transform: translateX(0);
             transform: translateX(0); } }
 
 @-webkit-keyframes cloudswhite {
-  /* line 7, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 7, /Users/alec/workspace/hipache/static/sass/kalabox */
   0% {
     -webkit-transform: translateX(0); }
 
-  /* line 8, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 8, /Users/alec/workspace/hipache/static/sass/kalabox */
   50% {
     -webkit-transform: translateX(6%); }
 
-  /* line 9, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 9, /Users/alec/workspace/hipache/static/sass/kalabox */
   100% {
     -webkit-transform: translateX(0); } }
 
 @keyframes cloudswhite {
-  /* line 12, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 12, /Users/alec/workspace/hipache/static/sass/kalabox */
   0% {
     -webkit-transform: translateX(0);
             transform: translateX(0); }
 
-  /* line 13, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 13, /Users/alec/workspace/hipache/static/sass/kalabox */
   50% {
     -webkit-transform: translateX(6%);
             transform: translateX(6%); }
 
-  /* line 14, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 14, /Users/alec/workspace/hipache/static/sass/kalabox */
   100% {
     -webkit-transform: translateX(0);
             transform: translateX(0); } }
 
 @-webkit-keyframes cloudsgray {
-  /* line 7, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 7, /Users/alec/workspace/hipache/static/sass/kalabox */
   0% {
     -webkit-transform: translateX(0); }
 
-  /* line 8, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 8, /Users/alec/workspace/hipache/static/sass/kalabox */
   50% {
     -webkit-transform: translateX(-2%); }
 
-  /* line 9, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 9, /Users/alec/workspace/hipache/static/sass/kalabox */
   100% {
     -webkit-transform: translateX(0); } }
 
 @keyframes cloudsgray {
-  /* line 12, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 12, /Users/alec/workspace/hipache/static/sass/kalabox */
   0% {
     -webkit-transform: translateX(0);
             transform: translateX(0); }
 
-  /* line 13, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 13, /Users/alec/workspace/hipache/static/sass/kalabox */
   50% {
     -webkit-transform: translateX(-2%);
             transform: translateX(-2%); }
 
-  /* line 14, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 14, /Users/alec/workspace/hipache/static/sass/kalabox */
   100% {
     -webkit-transform: translateX(0);
             transform: translateX(0); } }
 
-/* line 35, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+/* line 35, /Users/alec/workspace/hipache/static/sass/kalabox */
 body.page-kalabox {
   background-color: #3f96d6; }
 
-/* line 41, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+/* line 41, /Users/alec/workspace/hipache/static/sass/kalabox */
 .page-kalabox #what-is-kalabox- {
   font-size: 41px;
   font-weight: 100; }
-/* line 46, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+/* line 46, /Users/alec/workspace/hipache/static/sass/kalabox */
 .page-kalabox .lede {
   padding-top: 6em;
   padding-bottom: 2em; }
-/* line 50, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+/* line 50, /Users/alec/workspace/hipache/static/sass/kalabox */
 .page-kalabox .content-wrapper {
   padding-top: 3em;
   padding-bottom: 1em; }
-/* line 54, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+/* line 54, /Users/alec/workspace/hipache/static/sass/kalabox */
 .page-kalabox .content-footer {
   padding-bottom: 4em; }
-/* line 62, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+/* line 62, /Users/alec/workspace/hipache/static/sass/kalabox */
 .page-kalabox .btn-ctas .btn {
   display: block;
   border-radius: none !important; }
-/* line 68, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+/* line 68, /Users/alec/workspace/hipache/static/sass/kalabox */
 .page-kalabox .cel {
   margin: 1em 0 2em; }
-/* line 74, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+/* line 74, /Users/alec/workspace/hipache/static/sass/kalabox */
 .page-kalabox .cel .media {
   padding-right: 1em; 
   padding-left: 1em;}
@@ -9598,11 +5561,11 @@ body.page-kalabox {
   .page-kalabox .cel .media {
     width: 100%; } }
 @media (min-width: 520px) and (max-width: 768px) {
-  /* line 82, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 82, /Users/alec/workspace/hipache/static/sass/kalabox */
   .page-kalabox .cel .media i {
     padding-top: .5em; }
   }
-/* line 94, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+/* line 94, /Users/alec/workspace/hipache/static/sass/kalabox */
 .page-kalabox .cel .circle {
   width: 200px;
   height: 200px; 
@@ -9612,58 +5575,58 @@ body.page-kalabox {
   .page-kalabox .cel .circle {
     width: 230px;
     height: 230px; } }
-/* line 107, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+/* line 107, /Users/alec/workspace/hipache/static/sass/kalabox */
 .page-kalabox .cel .cel-content {
   padding: 0; 
   padding-top: 1.5em;}
 @media (max-width: 520px) {
   .page-kalabox .cel .cel-content {
     width: 100%; } }
-/* line 121, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+/* line 121, /Users/alec/workspace/hipache/static/sass/kalabox */
 .page-kalabox .kb2-features .media {
   text-align: center; }
 @media (min-width: 520px) and (max-width: 768px) {
   .page-kalabox .kb2-features .cel-content {
     padding-top: 1em; } }
-/* line 131, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+/* line 131, /Users/alec/workspace/hipache/static/sass/kalabox */
 .page-kalabox #main-lede {
   position: relative;
   overflow: hidden; 
   background-color: #3f96d6;
   background-size: contain;}
-/* line 138, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+/* line 138, /Users/alec/workspace/hipache/static/sass/kalabox */
 .page-kalabox #main-lede .content-wrapper {
   position: relative;
   z-index: 11;
   padding-top: 0; }
-/* line 144, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+/* line 144, /Users/alec/workspace/hipache/static/sass/kalabox */
 .page-kalabox #main-lede h1 {
   margin-top: 1em; }
-/* line 148, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+/* line 148, /Users/alec/workspace/hipache/static/sass/kalabox */
 .page-kalabox #main-lede p.slogan {
-  margin-bottom: 3em; }
-/* line 152, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  margin-bottom: 7em; }
+/* line 152, /Users/alec/workspace/hipache/static/sass/kalabox */
 .page-kalabox #main-lede i.kalabox-logo {
   display: block;
   width: 25%;
   height: 0;
   padding-top: 39%;
   margin: auto;
-  background: url(../images/kalabox/kalabox-logo.svg) no-repeat;
+  background: url(../images/kalabox-logo.svg) no-repeat;
   background-size: contain; }
 @media (min-width: 768px) {
   .page-kalabox #main-lede i.kalabox-logo {
     width: 80%;
     height: 300px; } }
 @media (min-width: 768px) {
-  /* line 168, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 168, /Users/alec/workspace/hipache/static/sass/kalabox */
   .page-kalabox #main-lede i.cloud {
     position: absolute;
     right: -10%;
     left: -10%;
     background-position: left top; }
 
-  /* line 175, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 175, /Users/alec/workspace/hipache/static/sass/kalabox */
   .page-kalabox #main-lede i#cloud-front {
     bottom: 0;
     left: -100%; 
@@ -9675,7 +5638,7 @@ body.page-kalabox {
     -webkit-animation: cloudsfront 200s linear infinite;
             animation: cloudsfront 200s linear infinite;}
 
-  /* line 180, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 180, /Users/alec/workspace/hipache/static/sass/kalabox */
   .page-kalabox #main-lede i#cloud-dark {
     bottom: 50px;
     z-index: 9;
@@ -9687,7 +5650,7 @@ body.page-kalabox {
     -webkit-animation: cloudsdark 200s linear infinite;
             animation: cloudsdark 200s linear infinite;}
 
-  /* line 185, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 185, /Users/alec/workspace/hipache/static/sass/kalabox */
   .page-kalabox #main-lede i#cloud-light {
     bottom: 50px;
     z-index: 8;
@@ -9699,7 +5662,7 @@ body.page-kalabox {
     -webkit-animation: cloudslight 25s ease-in-out infinite;
             animation: cloudslight 25s ease-in-out infinite;}
 
-  /* line 190, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 190, /Users/alec/workspace/hipache/static/sass/kalabox */
   .page-kalabox #main-lede i#cloud-white {
     bottom: 35px;
     z-index: 7;
@@ -9710,7 +5673,7 @@ body.page-kalabox {
     -webkit-animation: cloudswhite 50s linear infinite;
             animation: cloudswhite 50s linear infinite; }
 
-  /* line 194, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 194, /Users/alec/workspace/hipache/static/sass/kalabox */
   .page-kalabox #main-lede i#cloud-gray {
     bottom: 80px;
     z-index: 6;
@@ -9720,7 +5683,7 @@ body.page-kalabox {
     background-position: 50% top;
     -webkit-animation: cloudsgray 25s linear infinite;
             animation: cloudsgray 25s linear infinite; }
-  /* line 196, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+  /* line 196, /Users/alec/workspace/hipache/static/sass/kalabox */
   .page-kalabox #main-lede i#cloud-gray:before {
     position: absolute;
     right: 0;
@@ -9731,10 +5694,65 @@ body.page-kalabox {
     content: 'asdf';
     background-color: #e8e8e8; }
   }
-/* line 210, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+/* line 210, /Users/alec/workspace/hipache/static/sass/kalabox */
 .page-kalabox #cli-lede {
   position: relative; }
-/* line 213, /Users/alec/workspace/hipache/static/sass/pages/kalabox */
+/* line 213, /Users/alec/workspace/hipache/static/sass/kalabox */
 .page-kalabox #cli-lede h2.kalabox-highlight {
   font-size: 72px;
   font-weight: 300; }
+
+/* line 23, /Users/alec/workspace/hipache/static/sass/components */
+.lede {
+  padding-top: 2.75em;
+  padding-bottom: 2em;
+  margin-bottom: 0; 
+  color: #fff;
+  background-color: #3f96d6;}
+/* line 30, /Users/alec/workspace/hipache/static/sass/components */
+.lede p {
+  max-width: 44em;
+  font-size: 1.2em !important; }
+/* line 43, /Users/alec/workspace/hipache/static/sass/components */
+.lede h1 {
+  max-width: 18em;
+  margin-top: .5em; 
+  font-size: 3em;}
+
+/* line 52, /Users/alec/workspace/hipache/static/sass/components */
+.page-about-us .lede, .lede.about-us {
+  background: linear-gradient(to bottom, -us #d54688 10%, #ca2e76 100%); 
+  background-color: #d54688;}
+
+/* line 58, /Users/alec/workspace/hipache/static/sass/components */
+.page-services .lede, .lede.services {
+  overflow: hidden; 
+  background: linear-gradient(to bottom, #3f96d6 10%, #2a85c7 100%);
+  background-color: #3f96d6;}
+@media (min-width: 768px) {
+  .page-services .lede, .lede.services {
+    padding-top: 4em; } }
+
+/* line 68, /Users/alec/workspace/hipache/static/sass/components */
+.page-careers .lede, .lede.careers {
+  background: linear-gradient(to bottom, #94bf32 10%, #7ea32b 100%); 
+  background-color: #94bf32;}
+
+/* line 74, /Users/alec/workspace/hipache/static/sass/components */
+.page-contact .lede, .lede.contact {
+  background: linear-gradient(to bottom, #ecca34 10%, #e7c016 100%); 
+  background-color: #ecca34;}
+
+/* line 1, /Users/alec/workspace/hipache/static/sass/design */
+a:focus {
+  text-decoration: none; 
+  outline: none;}
+
+/* line 9, /Users/alec/workspace/hipache/static/sass/design */
+a:hover, a:active, a.active, a:focus {
+  color: #236ea5;
+  text-decoration: none; }
+
+/* line 14, /Users/alec/workspace/hipache/static/sass/design */
+a:hover {
+  text-decoration: underline; }

@@ -14,8 +14,7 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap-sass-official": "v3.2.0+2",
-    "fontawesome": "~4.2.0"
+    "bootstrap-sass-official": "v3.2.0+2"
   },
   "private": true
 }
