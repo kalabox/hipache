@@ -9,7 +9,7 @@
 
 %element-invisible {
   position: absolute !important;
-  height: 1px; width: 1px; 
+  height: 1px; width: 1px;
   overflow: hidden;
   clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px);
@@ -121,7 +121,6 @@
 %btn-full {
   margin-top: 1em;
   width: 100%;
-  font-family: DinNextRounded;
   @extend %h2;
   border: none;
 }
@@ -176,7 +175,6 @@
     border-bottom: 1px $c-services solid;
     // margin-right: .25em;
     margin-bottom: .075em;
-    font-family: DinNextRounded;
     font-weight: 300;
     margin-left: .25em;
     font-size: 1.125em;

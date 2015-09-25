@@ -15,8 +15,7 @@ module.exports = function(gulp) {
     .pipe(gulpsass({
       includePaths:[
         "bower_components/",
-        "bower_components/bootstrap-sass-official/assets/stylesheets",
-        "bower_components/fontawesome/scss/"
+        "bower_components/bootstrap-sass-official/assets/stylesheets"
       ],
       sourceComments: (env == "production")? "none" : "map",
       errLogToConsole: true
